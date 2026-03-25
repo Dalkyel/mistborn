@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════
 // NODES — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–3 (sin spoilers)
+// Prólogo + Capítulos 1–4 (sin spoilers)
 // Estructura: Personaje = quién + estado + "ver nodo X"
 //             Evento    = secuencia narrativa completa
 //             Concepto  = definición general
@@ -19,12 +19,12 @@ const nodes = [
   // ── CATEGORÍAS ────────────────────────────────────────
   {
     id: 'cat-kelsier', label: 'POV\nKelsier', group: 'CAT', type: 'Categoría',
-    desc: 'Nodos del punto de vista de Kelsier: Prólogo, Cap.2, Cap.3.',
+    desc: 'Nodos del punto de vista de Kelsier: Prólogo, Cap.2, Cap.3, Cap.4.',
     star: ''
   },
   {
     id: 'cat-vin', label: 'POV\nVin', group: 'CAT', type: 'Categoría',
-    desc: 'Nodos del punto de vista de Vin: Cap.1, Cap.2, Cap.3.',
+    desc: 'Nodos del punto de vista de Vin: Cap.1, Cap.2, Cap.3, Cap.4.',
     star: ''
   },
   {
@@ -34,7 +34,7 @@ const nodes = [
   },
   {
     id: 'cat-magia', label: 'Alomancia', group: 'CAT', type: 'Categoría',
-    desc: 'El sistema de magia del Imperio Final y sus reglas.',
+    desc: 'El sistema de magia del Imperio Final y sus reglas. Kelsier y Vin son Mistborn. Ham quema Peltre (Thug). Breeze quema Latón (Soother). El Snapping despierta los poderes. Hay 10 metales conocidos + el Undécimo Metal secreto.',
     star: ''
   },
   {
@@ -44,12 +44,12 @@ const nodes = [
   },
   {
     id: 'cat-tramas', label: 'Tramas', group: 'CAT', type: 'Categoría',
-    desc: 'Hilos argumentales abiertos del Prólogo al Cap.3.',
+    desc: 'Hilos argumentales abiertos del Prólogo al Cap.4.',
     star: ''
   },
   {
     id: 'cat-eventos', label: 'Eventos', group: 'CAT', type: 'Categoría',
-    desc: 'Eventos clave del Prólogo al Cap.3.',
+    desc: 'Eventos clave del Prólogo al Cap.4.',
     star: ''
   },
 
@@ -60,13 +60,13 @@ const nodes = [
   // ── Protagonistas ─────────────────────────────────────
   {
     id: 'kelsier', label: 'Kelsier', group: 'KELS', type: 'Personaje — Mistborn (Medio-Sangre)',
-    desc: 'Conocido como "El Superviviente de Hathsin." Medio-sangre (padre noble, madre skaa). Cicatrices longitudinales en brazos — marca de los Pozos de Hathsin. Carismático, audaz, siempre sonriendo. Mistborn confirmado: puede quemar los 8 metales. Estado actual: ha formado su equipo, tiene una reunión pendiente esta misma noche, acaba de reclutar a Vin y revelarle su naturaleza Mistborn. Ver nodo: quema-manor, kelsier-distrae-inquisidor, kelsier-irrumpe-guarida, prueba-vial, reunion-muro.',
-    star: '★★★ Mistborn y medio-sangre — en muchos sentidos peor que ser skaa puro a ojos del Imperio. El único otro Mistborn skaa que conoce es Vin. Rechaza a colaboradores por falta de carácter, no por falta de poder.'
+    desc: 'Conocido como "El Superviviente de Hathsin." Medio-sangre (padre noble, madre skaa). Cicatrices longitudinales en brazos — marca de los Pozos de Hathsin. Carismático, audaz, siempre sonriendo. Mistborn confirmado. No era Alomante antes de los Pozos: "Snapeó" allí bajo el trauma extremo, despertando sus poderes. Su esposa Mare murió en los Pozos — el Lord Ruler "la tomó de él". Pasó un año trabajando en los Pozos y descubrió que son la mina secreta de atium. Ha planeado el gran trabajo durante ocho meses. Posee el Undécimo Metal — una barra plateada del tamaño de un dedo, obtenida cerca de la Península Lejana — y pretende usarla para matar al Lord Ruler. Estado actual: el equipo está formado, el plan revelado, Vin oficialmente parte de la banda. Ver nodo: quema-manor, kelsier-distrae-inquisidor, kelsier-irrumpe-guarida, prueba-vial, reunion-muro, gran-reunion.',
+    star: '★★★ Mistborn y medio-sangre. Motivación triple: robar el atium, overthrow el Imperio, vengar a Mare. "El Lord Ruler y yo tenemos una deuda pendiente." No era Alomante antes de los Pozos — el trauma lo despertó.'
   },
   {
     id: 'vin', label: 'Vin', group: 'KELS', type: 'Personaje — Mistborn (Skaa / Medio-Sangre)',
-    desc: 'Joven skaa de 16 años, menuda, aspecto juvenil. Segunda protagonista. Criada por su hermano Reen con filosofía brutal: "Cualquiera te traicionará." Llama "Suerte" a su Alomancia. Estado actual (post Cap.3): Mistborn confirmada, sabe que su padre es un high prelan del Ministerio del Acero, ha sido reclutada implícitamente por Kelsier. Guarda tres objetos personales: el arete de su madre, la obsidiana de Reen, y una colección de piedras de cada ciudad visitada. Ver nodo: traicion-ulef, golpiza-guarida, vin-resiste-alomancia, prueba-vial, origen-padre-vin.',
-    star: '★★★ MISTBORN CONFIRMADA Cap.3. Padre: high prelan del Ministerio. Su existencia es una herejía viva — Mistborn skaa con sangre del sistema que la oprime. Resistió activamente la Alomancia de Kelsier: algo que él no esperaba.'
+    desc: 'Joven skaa de 16 años, menuda, aspecto juvenil. Segunda protagonista. Criada por su hermano Reen con filosofía brutal: "Cualquiera te traicionará." Llama "Suerte" a su Alomancia. Mistborn confirmada (Cap.3). En el Cap.4: Breeze la Suavizó sin que ella lo notara — pudo resistir a Kelsier pero no a Breeze — primera señal de que sus defensas tienen límites. Kelsier revela ante todo el equipo que es Mistborn. Decide quedarse y cooperar con el plan de Kelsier, no por convicción sino porque necesita aprender Alomancia para ser libre. "Me ataré a este Kelsier si eso me lleva a la libertad eventual." Estado actual: parte oficial del equipo, el grupo sabe que es Mistborn. Ver nodo: traicion-ulef, golpiza-guarida, vin-resiste-alomancia, prueba-vial, origen-padre-vin, gran-reunion.',
+    star: '★★★ MISTBORN CONFIRMADA. En Cap.4 Breeze la Suavizó sin que lo notara — algo que Kelsier no logró. Sus defensas son entrenamiento, no instinto puro. "Nunca confíes en alguien que te da buenas noticias — es la forma más vieja de engañar a alguien." Y aun así se queda.'
   },
 
   // ── Equipo de Kelsier ─────────────────────────────────
@@ -81,34 +81,34 @@ const nodes = [
     star: '★★ Detectó a Vin antes que nadie. Hermanos en lados opuestos de la misma causa.'
   },
   {
-    id: 'breeze', label: 'Breeze', group: 'KELS', type: 'Personaje — Miembro del Equipo',
-    desc: 'Miembro del equipo de Kelsier. Estado actual: estará en la reunión esta noche. Impaciente por conocer el plan misterioso.',
-    star: '¿Qué habilidad alomática aporta Breeze?'
+    id: 'breeze', label: 'Breeze', group: 'KELS', type: 'Personaje — Soother / Misting Latón',
+    desc: 'Soother — quema Latón para Suavizar emociones ajenas. Mayor y algo corpulento. Viste con impecable elegancia: chaleco ciruela, botones dorados, sobretodo negro, sombrero de ala corta, bastón de duelo. Habla con familiaridad inmediata y condescendencia afectuosa. En el Cap.4 Suavizó a Vin para que le trajera vino sin que ella lo notara — algo que Kelsier no había logrado. Cuando Ham lo confronta por la ética del acto, lo desestima: "Le ofrecí ánimo, solo que por medios irregulares." Estado actual: se unió al equipo en la gran reunión. Ver nodo: gran-reunion.',
+    star: '★★ Más sutil que Kelsier con la Alomancia emocional — Vin no lo detectó hasta después. La diferencia entre resistir a Kelsier y no resistir a Breeze revela que sus defensas dependen del contexto, no solo del poder.'
   },
   {
-    id: 'ham', label: 'Ham', group: 'KELS', type: 'Personaje — Miembro del Equipo',
-    desc: 'Miembro del equipo de Kelsier. Estado actual: estará en la reunión esta noche.',
-    star: '¿Qué habilidad alomática aporta Ham?'
+    id: 'ham', label: 'Ham\n(Hammond)', group: 'KELS', type: 'Personaje — Thug / Misting Peltre',
+    desc: 'Nombre completo: Hammond. Thug — quema Peltre para aumentar fuerza física y resistencia. Complexión impresionantemente musculosa, shirt sin mangas, cabello corto y erguido. Compañero habitual de Breeze. Rol en el equipo: seguridad general, liderazgo de guerreros y combate cuando sea necesario. Carácter filosófico — pregunta constantemente sobre la ética de la Alomancia ("si alguien comete un crimen bajo tu Suavizado, ¿es tu culpa o la suya?"). Breeze lo llama "demasiado rígido." Estado actual: se unió al equipo en la gran reunión del Cap.4. Ver nodo: gran-reunion.',
+    star: '★ "Sé que me uniré a tu banda sin importar cuál sea el trabajo." Leal pero no sin cuestionamientos.'
   },
   {
     id: 'trap', label: 'Trap 💀', group: 'KELS', type: 'Personaje — Smoker (Muerto)',
-    desc: 'Smoker del antiguo círculo de Kelsier — quemaba Cobre. Estado actual: muerto. El Ministerio del Acero lo decapitó hace un par de meses, sin enviarlo siquiera a los Pozos.',
+    desc: 'Smoker del antiguo círculo de Kelsier — quemaba Cobre. Estado actual: muerto. El Ministerio del Acero lo decapitó hace un par de meses, sin enviarlo siquiera a los Pozos. En el Cap.4 Breeze y Ham lo recuerdan con afecto.',
     star: '★ "El Ministerio alcanza a todo el mundo tarde o temprano." Su muerte dejó al equipo sin Smoker.'
   },
   {
-    id: 'clubs', label: 'Clubs', group: 'KELS', type: 'Personaje — Smoker (Por Reclutar)',
-    desc: 'Smoker — supuestamente uno de los mejores de la ciudad. Tiene una tienda como fachada. Estado actual: pendiente de reclutar. Kelsier cree que será especialmente receptivo a este trabajo particular.',
-    star: '¿Por qué Clubs sería especialmente receptivo a ESTE trabajo?'
+    id: 'clubs', label: 'Clubs', group: 'KELS', type: 'Personaje — Smoker (Destino Incierto)',
+    desc: 'Smoker — uno de los mejores de la ciudad según Kelsier. Cara gnarled como madera retorcida, cojea al caminar, ojos con el nivel de desaprobación que solo los ancianos tienen. Tiene una tienda como fachada. En el Cap.4 asistió a la gran reunión pero, al escuchar el plan completo, lo declaró una idiotez y abandonó la sala de golpe. Kelsier lo dejó irse: "No voy a hacerle asesinar porque decidió que era demasiado peligroso." Estado actual: se fue de la reunión, destino incierto. Ver nodo: gran-reunion.',
+    star: '★★ "El Lord Ruler intentó matarte una vez — veo que no estarás satisfecho hasta que lo consiga." ¿Volverá Clubs? Kelsier confía en que no los traicionará. ¿Esa confianza está justificada?'
   },
   {
-    id: 'clubs-familiar', label: 'Familiar de\nClubs (Tineye)', group: 'KELS', type: 'Personaje — Tineye (Por Reclutar)',
-    desc: 'Un familiar de Clubs es Tineye — Misting que quema Estaño. Estado actual: pendiente de reclutar junto a Clubs.',
+    id: 'clubs-familiar', label: 'Familiar de\nClubs (Tineye)', group: 'KELS', type: 'Personaje — Tineye (Sin Confirmar)',
+    desc: 'Un familiar de Clubs es Tineye — Misting que quema Estaño. Mencionado en el Cap.2 como posible recluta. Estado actual: no apareció en la gran reunión del Cap.4. Pendiente de confirmar.',
     star: ''
   },
   {
-    id: 'yeden', label: 'Yeden', group: 'SKAA', type: 'Personaje — Representante de la Rebelión',
-    desc: 'Representante de la rebelión skaa organizada. Estado actual: confirmado para la reunión esta noche, donde será el cliente que financie el gran trabajo de Kelsier.',
-    star: '★ ¿Qué tan organizada está realmente la rebelión skaa?'
+    id: 'yeden', label: 'Yeden', group: 'SKAA', type: 'Personaje — Líder de la Rebelión Skaa',
+    desc: 'Líder de la rebelión skaa organizada. Bajo, cabello rizado castaño, ropa gris de trabajador skaa, abrigo marrón remendado y manchado de hollín. Profundamente moralistic y abiertamente hostil hacia los ladrones: "Son egoístas, indisciplinados y le han dado la espalda al resto de los skaa." Ya había pagado la mitad de los 30.000 boxings acordados (fondos de décadas de ahorro de la rebelión). No creía que los Mistborn existieran. En el Cap.4, a regañadientes se convierte en parte del equipo. Estado actual: cliente oficial, sentado en la mesa del equipo. Ver nodo: gran-reunion, rebelion-skaa.',
+    star: '★★ La ironía de Yeden: desprecia profundamente a los ladrones pero los necesita desesperadamente. "Si de mí dependiera..." No ve otra opción. Su pueblo lleva mil años sin victorias reales.'
   },
 
   // ── Personajes Prólogo ─────────────────────────────────
@@ -365,9 +365,9 @@ const nodes = [
     star: '★★★ Kelsier mira hacia aquí cuando habla del "trabajo como ningún otro." El objetivo final podría estar aquí.'
   },
   {
-    id: 'pozos-hathsin', label: 'Pozos\nde Hathsin', group: 'LUGAR', type: 'Lugar — Prisión / Minas',
-    desc: 'Lugar de castigo y trabajo forzado administrado por el Señor Gobernante. Extremadamente letal — los reclusos raramente sobreviven meses. Sus cicatrices son únicas: marcas longitudinales en brazos y antebrazos, como si una bestia hubiera pasado sus garras repetidamente. Estado actual: en operación. Kelsier es el único caso conocido de supervivencia prolongada.',
-    star: '★★ ¿Qué ocurrió exactamente allí para que Kelsier saliera transformado — y con poderes Mistborn plenos?'
+    id: 'pozos-hathsin', label: 'Pozos\nde Hathsin', group: 'LUGAR', type: 'Lugar — Prisión / Mina Secreta de Atium',
+    desc: 'Lugar de castigo y trabajo forzado administrado por el Señor Gobernante. En realidad es la mina secreta de atium del Señor Gobernante — el secreto más celosamente guardado del Imperio. POR ESO nadie sobrevive: los prisioneros no pueden contar lo que hay allí. Kelsier trabajó allí durante un año y descubrió la verdad. Fue allí donde Snapeó — el trauma despertó sus poderes alomáticos (no era Alomante antes de entrar). Sus cicatrices en los brazos son marca de ese año. Su esposa Mare murió allí.',
+    star: '★★★ REVELACIÓN CENTRAL del Cap.4. Los Pozos son la mina de atium. Eso explica la regla de "nadie sobrevive". El Señor Gobernante controla el mercado del atium porque controla la única fuente. ¿Por qué envió a Kelsier allí en lugar de simplemente matarlo?'
   },
   {
     id: 'plantacion-tresting', label: 'Plantación\nde Tresting 💀', group: 'LUGAR', type: 'Lugar — Plantación (Destruida)',
@@ -441,13 +441,13 @@ const nodes = [
   },
   {
     id: 'koloss', label: 'Los Koloss', group: 'MINISTERIO', type: 'Facción — Fuerza Militar',
-    desc: 'Fuerza militar al servicio del Señor Gobernante. Solo mencionados brevemente en el Prólogo como posible represalia ante la rebelión skaa. Estado actual: desconocido, no vistos aún.',
-    star: '¿Qué son los koloss exactamente?'
+    desc: 'Fuerza militar al servicio del Señor Gobernante. En el Cap.4 Ham pregunta explícitamente por ellos como obstáculo al plan. Kelsier responde que si el Señor Gobernante los marchara sobre su propia capital, la destrucción sería tan grande que los nobles provinciales aprovecharían para rebelarse y declararse reyes — causando más inestabilidad de la que resolvería. Estado actual: desconocidos en apariencia, no vistos.',
+    star: '★★ El "arma nuclear" del Señor Gobernante — tan destructiva que usarla en su propia capital podría costarle el Imperio. ¿Qué son exactamente?'
   },
   {
     id: 'senor-gobernante', label: 'El Señor\nGobernante', group: 'DIOS', type: 'Figura — Dios-Rey',
-    desc: 'Dios-rey inmortal del Imperio Final. Lleva mil años en el poder. Recuerda directamente a los hombres que le apoyaron al inicio de su reinado — su inmortalidad hace de la nobleza una cuestión de memoria histórica directa. Otorgó la Alomancia a sus seguidores hace mil años como recompensa. Estado actual: en el poder absoluto, en Kredik Shaw. Ver nodo: kredik-shaw.',
-    star: '★★★ La gran amenaza invisible. La Alomancia es su regalo — y él decide quién la puede usar y sobre quién.'
+    desc: 'Dios-rey inmortal del Imperio Final. Título religioso: "Astilla del Infinito" — una pieza de Dios mismo, según Ham. Lleva mil años en el poder. Otorgó la Alomancia a sus seguidores como recompensa. Controla el mercado del atium: lo vende en pequeñas cantidades a precios prohibitivos; su fuente es la mina secreta de los Pozos de Hathsin. Sin el atium no puede mantener sus ejércitos. Tomó a la esposa de Kelsier (Mare) y casi le quitó su cordura. Estado actual: en Kredik Shaw. Objetivo de Kelsier. Ver nodo: kredik-shaw, pozos-hathsin, undecimo-metal.',
+    star: '★★★ "La Astilla del Infinito. Es una pieza de Dios mismo. No puedes matarlo." Pero la leyenda del Undécimo Metal dice que sí se puede. Y Kelsier lo cree.'
   },
   {
     id: 'banda-camon', label: 'Banda de\nCamon / Milev', group: 'FACCION', type: 'Facción — Banda Criminal Skaa',
@@ -455,9 +455,9 @@ const nodes = [
     star: ''
   },
   {
-    id: 'banda-kelsier', label: 'Banda de\nKelsier', group: 'FACCION', type: 'Facción — Equipo en Formación',
-    desc: 'El equipo de especialistas alomáticos que Kelsier está reclutando. Composición actual: Kelsier (Mistborn), Dockson (planificador), Breeze, Ham, Clubs (Smoker — por confirmar), familiar Tineye de Clubs, Yeden (cliente/financiador), Vin (recién incorporada). Por convencer: Marsh. Estado actual: reunión prevista esta misma noche en la guarida de Milev. Ver nodo: gran-trabajo, yeden.',
-    star: '★★ Kelsier rechazó a Ruddy como Smoker: "Es un buen Smoker, pero no es suficientemente buen hombre."'
+    id: 'banda-kelsier', label: 'Banda de\nKelsier', group: 'FACCION', type: 'Facción — Equipo Formado',
+    desc: 'El equipo especializado que Kelsier ha formado para derrocar el Imperio. Composición confirmada tras el Cap.4: Kelsier (Mistborn, líder), Dockson (planificador/logística), Breeze (Soother, reclutamiento masivo), Ham (Thug, seguridad y guerreros), Vin (Mistborn, nueva recluta), Yeden (cliente — financia con los fondos de la rebelión). Clubs asistió pero se fue. Marsh aún no ha aceptado. El equipo necesita: un espía entre la nobleza, casas de seguridad, y un lugar donde entrenar un ejército entero. Ver nodo: gran-trabajo, gran-reunion.',
+    star: '★★ "Los hombres en esta sala son los Alomantes más capaces, más listos y más hábiles de la ciudad." Kelsier rechazó a Ruddy solo por falta de carácter — el carácter importa tanto como el poder.'
   },
 
   // ══════════════════════════════════════════════════════
@@ -511,13 +511,13 @@ const nodes = [
 
   {
     id: 'rebelion-skaa', label: 'La Rebelión\nSkaa (Trama Central)', group: 'TRAMA', type: 'Trama — Abierta',
-    desc: 'La gran trama de la novela. Kelsier trabaja para desestabilizar el Imperio Final y catalizar una rebelión skaa. Yeden representa la organización rebelde que lo financiará. La reunión de esta noche es el primer paso formal.',
-    star: '★★★ Trama central. ¿Cuál es exactamente el plan de Kelsier? ¿Qué tiene que ver con Kredik Shaw?'
+    desc: 'La rebelión skaa organizada lleva mil años intentando derrocar al Señor Gobernante sin éxito. Su mayor fracaso: el Massacre de Tougier (hace 3 siglos), donde 7.000 rebeldes fueron masacrados. Problema crónico: no pueden convencer a los skaa comunes de unirse — llevan un milenio destrozados y sin esperanza. Yeden es su líder actual. Ha contratado a Kelsier con 30.000 boxings para que le proporcione un ejército y una oportunidad de tomar la ciudad. Estado actual: plan en marcha, Yeden es parte oficial del equipo de Kelsier. Ver nodo: yeden, gran-trabajo.',
+    star: '★★★ "La rebelión falla porque es demasiado voluminosa y dispersa." Kelsier cree que un equipo pequeño y especializado tiene más oportunidades que un ejército de millares.'
   },
   {
-    id: 'gran-trabajo', label: 'El Gran Trabajo\n(Trama Central)', group: 'TRAMA', type: 'Trama — Gran Misterio',
-    desc: 'El misterioso trabajo que Kelsier está planeando. Dockson lo llama "un trabajo como ningún otro." Kelsier mira hacia Kredik Shaw al hablar de él. Requiere un equipo especializado de Alomantes. El cliente es Yeden — lo que lo conecta directamente con la rebelión skaa. Vin no sabe que ha sido reclutada — Kelsier solo le ha dicho que tiene poderes y que necesita aprender a usarlos.',
-    star: '★★★ "Un trabajo como ningún otro." Kelsier mira el palacio del Señor Gobernante. La escala del plan supera cualquier robo normal.'
+    id: 'gran-trabajo', label: 'El Gran Trabajo\n(Plan Revelado)', group: 'TRAMA', type: 'Trama — Abierta',
+    desc: 'El plan de Kelsier, revelado en el Cap.4. Fases: (1) Neutralizar la Guarnición de Luthadel — sin policía, la ciudad queda indefensa. (2) Lanzar la ciudad al caos — las Grandes Casas no podrán movilizarse. (3) Yeden marcha su ejército a Luthadel y toma el palacio, capturando al Señor Gobernante. (4) Mientras Yeden asegura la ciudad, el equipo de Kelsier saquea las reservas de atium del tesoro. (5) Yeden se queda con el 50% del atium y el control de la ciudad. (6) El equipo desaparece con el otro 50%. Objetivo secundario personal de Kelsier: matar al Señor Gobernante con el Undécimo Metal. Pago: 30.000 boxings de Yeden (15.000 ya pagados). Sin el atium, el Señor Gobernante pierde su base financiera y no puede pagar ejércitos. Ver nodo: gran-reunion, guaricion-luthadel, atium, undecimo-metal.',
+    star: '★★★ El plan completo. Escala sin precedentes — ningún equipo de ladrones ha intentado algo así. La debilidad clave: ¿cómo se neutraliza la Guarnición? ¿Cómo se lanza la ciudad al caos? Eso aún está sin resolver.'
   },
   {
     id: 'identidad-heroe', label: 'El Héroe\nde las Edades', group: 'TRAMA', type: 'Trama — Gran Misterio',
@@ -548,6 +548,80 @@ const nodes = [
     id: 'reclutar-marsh', label: 'Reclutar a Marsh\n(Trama Abierta)', group: 'TRAMA', type: 'Trama — Abierta',
     desc: 'Kelsier necesita que su hermano Marsh se infiltre entre los obligadores para el gran trabajo. Marsh desaprueba los métodos de Kelsier y ya no quiere nada con la rebelión ni con el inframundo. Kelsier insiste en que lo convencerá.',
     star: '★★ Hermanos en lados opuestos de la misma causa. La conversación pendiente es un choque inevitable.'
+  },
+
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 4 — NUEVOS NODOS
+  // ══════════════════════════════════════════════════════
+
+  // ── Nuevos personajes ─────────────────────────────────
+  {
+    id: 'mare', label: 'Mare 💀', group: 'KELS', type: 'Personaje — Esposa de Kelsier (Muerta)',
+    desc: 'Esposa de Kelsier. Fue enviada junto a él a los Pozos de Hathsin por el Señor Gobernante después de que alguien los traicionara. No sobrevivió los Pozos. Kelsier la menciona al revelar su motivación personal al equipo: "El Lord Ruler tomó a Mare de mí, y casi se llevó también mi cordura." Su muerte es el motor de la venganza personal de Kelsier.',
+    star: '★★ El núcleo de la motivación personal de Kelsier. ¿Quién los traicionó? ¿Quién entregó a Kelsier y a Mare al Lord Ruler?'
+  },
+  {
+    id: 'disten', label: 'Disten', group: 'SKAA', type: 'Personaje — Miembro Banda Milev',
+    desc: 'Uno de los lugartenientes de Camon, ahora bajo Milev. Le falta una mano pero tiene oídos y ojos entre los mejores del crew. En el Cap.4 lidera la conversación del crew sobre Kelsier antes de la gran reunión, compartiendo lo que sabe sobre el Superviviente.',
+    star: ''
+  },
+
+  // ── Nuevos eventos ────────────────────────────────────
+  {
+    id: 'gran-reunion', label: 'La Gran\nReunión (Cap.4)', group: 'EVENTO', type: 'Evento — Cap.4',
+    desc: 'La reunión del equipo de Kelsier en la guarida de Milev, inmediatamente después de los eventos del Cap.3. Llegan por orden: Breeze y Ham juntos, luego Clubs solo, luego Yeden. Kelsier y Dockson llegan tarde — venían de ver a Marsh (que no vendrá). Vin observa desde una mesa cercana creyendo ser la "twixt" (intermediaria). Kelsier presenta a Yeden como el empleador. Revelación del plan completo. Ham y Breeze aceptan. Clubs declara que es una idiotez y abandona la sala dando un portazo — Kelsier lo deja ir sin represalias. Yeden se queda a regañadientes. Kelsier revela que Vin es Mistborn, no simplemente twixt. Reveal final: el Undécimo Metal y el objetivo de matar al Lord Ruler.',
+    star: '★★★ El momento fundacional del equipo. El plan completo queda sobre la mesa. Clubs se va. Vin pasa de ser "twixt" a Mistborn del equipo ante todos.'
+  },
+  {
+    id: 'breeze-sootha-vin', label: 'Breeze Suaviza\na Vin', group: 'EVENTO', type: 'Evento — Cap.4',
+    desc: 'Nada más llegar, Breeze usa Alomancia emocional sobre Vin para que le traiga una copa de vino sin pedírselo directamente. Vin obedece sin darse cuenta — algo que no le ocurrió con Kelsier. Ham lo reprende: "Solo porque puedas Empujar a alguien no significa que debas hacerlo." Breeze lo desestima filosóficamente. Vin se detiene, mira la copa en su mano y comprende lo que ha pasado. Mira a Breeze con los ojos entornados: "Mistborn." Breeze la corrige: es solo un Misting Soother ordinario. Vin deja el vino en la barra y no se lo lleva. Breeze no va a buscarlo.',
+    star: '★★ Vin resistió a Kelsier pero no a Breeze. La diferencia: Kelsier la advertía con su presencia. Breeze opera en silencio. Sus defensas son contextuales, no absolutas.'
+  },
+  {
+    id: 'clubs-abandona', label: 'Clubs Abandona\nla Reunión', group: 'EVENTO', type: 'Evento — Cap.4',
+    desc: 'Al escuchar el plan completo de Kelsier — overthrow del Imperio, matar al Lord Ruler — Clubs declara: "No puedes. Es una idiotez. Los Inquisidores nos colgarán a todos de ganchos por el cuello." Se levanta, tira su silla al suelo, y sale cojeando con un portazo. Yeden exige que lo maten para que no los delate. Kelsier se niega: "No trabajo así. Lo invité a una reunión con un plan peligroso — no voy a hacerle asesinar porque decidió que era demasiado peligroso." Dockson señala que nunca habrían invitado a alguien a una de estas reuniones sin confiar en que no los traicione.',
+    star: '★★ El código de honor de Kelsier en acción: la confianza es la base, no la coerción. ¿Volverá Clubs? Kelsier cuenta con ello.'
+  },
+
+  // ── Nuevos conceptos alomáticos ───────────────────────
+  {
+    id: 'snapping', label: 'El Snapping\n(Despertar)', group: 'MAGIA', type: 'Concepto — Alomancia',
+    desc: 'El proceso por el que un Alomante latente despierta sus poderes. Requiere un trauma físico o emocional extremo. Kelsier no era Alomante antes de entrar a los Pozos de Hathsin — "Snapeó" allí, bajo el trauma de las condiciones extremas y la pérdida de Mare. El Snapping es el motivo por el que muchos nobles exponen a sus hijos a situaciones de riesgo controlado — intentando despertar poderes latentes que quizás nunca se manifiesten.',
+    star: '★★★ Revelación mayor del Cap.4. Kelsier NO nació Mistborn — se convirtió en uno. ¿Podría Vin haber Snapeado ya? ¿Cuándo? ¿Con qué trauma?'
+  },
+  {
+    id: 'thug', label: 'Thug\n(Peltre/Pewter)', group: 'MAGIA', type: 'Concepto — Tipo Misting',
+    desc: 'Misting que quema Peltre (Pewter). Aumenta dramáticamente la fuerza, la velocidad y la resistencia física del Alomante. Útil en combate directo y para soportar daño. Ham es Thug — lidera la seguridad y los guerreros del equipo. Es la variante física de los Mistings, opuesta a los tipos sensoriales o emocionales.',
+    star: ''
+  },
+  {
+    id: 'undecimo-metal', label: 'El Undécimo\nMetal', group: 'MAGIA', type: 'Concepto — Metal Desconocido',
+    desc: 'Metal alomático desconocido para la mayoría. Barra delgada y plateada del tamaño y grosor de un dedo. Obtenida por Kelsier cerca de la Península Lejana (Far Peninsula), en una región que aún recuerda el nombre de su antiguo reino antes de la Ascensión. Según una leyenda que el Ministerio del Acero ha suprimido activamente, este metal puede matar al Señor Gobernante. Es el único punto de vulnerabilidad conocido del Lord Ruler. Kelsier aún no sabe exactamente cómo funciona — solo que pretende usarlo.',
+    star: '★★★ La teoría alomática conocida habla de 8 metales básicos y 2 metales altos (10 en total). Este es el undécimo — desconocido, suprimido, y supuestamente capaz de matar a un dios. ¿Por qué el Ministerio suprimiría una leyenda si fuera falsa?'
+  },
+  {
+    id: 'atium', label: 'Atium', group: 'MAGIA', type: 'Concepto — Metal Raro',
+    desc: 'Metal alomático extraordinariamente raro. Solo la nobleza más poderosa puede costeárselo. El Señor Gobernante controla su mercado vendiendo pequeñas cantidades a precios prohibitivos, manteniendo una reserva enorme para asegurarse el control. Su única fuente es la mina secreta de los Pozos de Hathsin. El tesoro del palacio contiene las reservas del Lord Ruler. Sin ellas, perdería la base financiera de su Imperio. El objetivo del equipo es robar esas reservas: el 50% para Yeden, el 50% para el equipo.',
+    star: '★★★ El verdadero motor financiero del Imperio. Sin el atium del tesoro, el Lord Ruler no puede pagar sus ejércitos. El robo del atium ES la clave para desestabilizar el Imperio, tanto o más que cualquier batalla.'
+  },
+
+  // ── Nuevas facciones/lugares ──────────────────────────
+  {
+    id: 'guaricion-luthadel', label: 'Guarnición\nde Luthadel', group: 'FACCION', type: 'Facción — Fuerza Policial',
+    desc: 'La fuerza policial y militar que patrulla Luthadel. Mientras esté operativa, ningún ejército rebelde puede moverse por la ciudad. Neutralizarla es el primer y más crítico paso del plan de Kelsier. Estado actual: en operación plena. Cómo neutralizarla es uno de los problemas sin resolver del plan. Ver nodo: gran-trabajo.',
+    star: '★★ El obstáculo más inmediato del plan. "No podemos hacer nada mientras ellos policieen las calles." ¿Cómo se deshace de una guarnición militar sin levantar sospechas?'
+  },
+  {
+    id: 'peninsula-lejana', label: 'Península\nLejana', group: 'LUGAR', type: 'Lugar — Región Remota (Mencionada)',
+    desc: 'Región distante mencionada en el Cap.4. Cerca de allí encontró Kelsier el Undécimo Metal. Sus habitantes aún recuerdan el nombre de su antiguo reino antes de la Ascensión del Lord Ruler — una memoria que el Imperio ha intentado borrar en el resto del mundo. Ver nodo: undecimo-metal.',
+    star: '★ Hay lugares donde la memoria histórica previa al Lord Ruler sobrevive. ¿Qué más recuerdan esos pueblos?'
+  },
+
+  // ── Nueva trama ───────────────────────────────────────
+  {
+    id: 'matar-lord-ruler', label: 'Matar al\nSeñor Gobernante', group: 'TRAMA', type: 'Trama — Objetivo Personal de Kelsier',
+    desc: 'El objetivo personal de Kelsier más allá del robo del atium. El Lord Ruler "tomó a Mare" de él y casi destruyó su cordura. Kelsier posee el Undécimo Metal — según una leyenda suprimida, el único punto de vulnerabilidad del Lord Ruler. Ham lo llama imposible: "La Astilla del Infinito. Es una pieza de Dios mismo. No puedes matarle." Kelsier no responde con palabras — solo con determinación. Si no puede matarlo, al menos planea sacarlo de la ciudad, capturarlo o dejarlo sin recursos. Ver nodo: undecimo-metal, mare, senor-gobernante.',
+    star: '★★★ "Vin pensó: tiene que estar loco." Pero Kelsier fue a los Pozos y sobrevivió algo que nadie sobrevive. ¿Qué sabe que los demás no saben? ¿Qué le hicieron los Pozos que le da esta certeza?'
   },
 
 ];
