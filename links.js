@@ -319,17 +319,25 @@ const links = [
   { source: 'marsh', target: 'yeden',           label: 'conoce a',              type: 'rel' },
   { source: 'marsh', target: 'reclutar-marsh',  label: 'objetivo de',           type: 'trama' },
 
-  { source: 'yeden',         target: 'rebelion-skaa', label: 'representa',   type: 'rel' },
+  { source: 'yeden',         target: 'rebelion-skaa', label: 'líder de',     type: 'rel' },
   { source: 'yeden',         target: 'banda-kelsier', label: 'cliente de',   type: 'rel' },
   { source: 'yeden',         target: 'gran-trabajo',  label: 'financia',     type: 'goal' },
-  { source: 'clubs',         target: 'banda-kelsier', label: 'será miembro', type: 'rel' },
+  { source: 'yeden',         target: 'gran-reunion',  label: 'asistió a',    type: 'event' },
   { source: 'clubs',         target: 'smoker',        label: 'es',           type: 'magic' },
   { source: 'clubs',         target: 'clubs-familiar', label: 'familiar es', type: 'rel' },
+  { source: 'clubs',         target: 'gran-reunion',  label: 'asistió y abandonó', type: 'event' },
+  { source: 'clubs',         target: 'clubs-abandona', label: 'protagoniza', type: 'event' },
   { source: 'trap',          target: 'smoker',        label: 'era',          type: 'magic' },
   { source: 'trap',          target: 'ministerio-acero', label: 'cazado por', type: 'conflict' },
   { source: 'breeze',        target: 'banda-kelsier', label: 'miembro de',   type: 'rel' },
+  { source: 'breeze',        target: 'misting',       label: 'es',           type: 'magic' },
+  { source: 'breeze',        target: 'suerte-vin',    label: 'quema Latón',  type: 'magic' },
+  { source: 'breeze',        target: 'gran-reunion',  label: 'asistió a',    type: 'event' },
+  { source: 'breeze',        target: 'breeze-sootha-vin', label: 'protagoniza', type: 'event' },
   { source: 'ham',           target: 'banda-kelsier', label: 'miembro de',   type: 'rel' },
-  { source: 'clubs-familiar', target: 'banda-kelsier', label: 'será miembro', type: 'rel' },
+  { source: 'ham',           target: 'misting',       label: 'es',           type: 'magic' },
+  { source: 'ham',           target: 'thug',          label: 'es',           type: 'magic' },
+  { source: 'ham',           target: 'gran-reunion',  label: 'asistió a',    type: 'event' },
   { source: 'clubs-familiar', target: 'tineye',       label: 'es',           type: 'magic' },
   { source: 'banda-kelsier', target: 'gran-trabajo',  label: 'ejecutará',    type: 'goal' },
   { source: 'banda-kelsier', target: 'rebelion-skaa', label: 'aliada con',   type: 'rel' },
@@ -344,7 +352,78 @@ const links = [
   { source: 'high-prelan-arriev', target: 'el-inquisidor', label: 'salió con',  type: 'rel' },
   { source: 'kredik-shaw', target: 'senor-gobernante',   label: 'residencia de', type: 'geo' },
   { source: 'kredik-shaw', target: 'luthadel',           label: 'en el centro de', type: 'geo' },
-  { source: 'pozos-hathsin', target: 'senor-gobernante', label: 'gestionados por', type: 'rel' },
+  { source: 'pozos-hathsin', target: 'senor-gobernante', label: 'mina de atium de', type: 'rel' },
+  { source: 'pozos-hathsin', target: 'atium',            label: 'produce',      type: 'lore' },
+  { source: 'pozos-hathsin', target: 'mare',             label: 'donde murió',  type: 'history' },
   { source: 'plantacion-tresting', target: 'canales',    label: 'conectada por', type: 'geo' },
 
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 4
+  // ══════════════════════════════════════════════════════
+
+  // ── Kelsier — nuevas conexiones ───────────────────────
+  { source: 'kelsier', target: 'mare',              label: 'esposa muerta',       type: 'rel' },
+  { source: 'kelsier', target: 'snapping',          label: 'experimentó en Pozos', type: 'history' },
+  { source: 'kelsier', target: 'undecimo-metal',    label: 'posee / usará',       type: 'goal' },
+  { source: 'kelsier', target: 'matar-lord-ruler',  label: 'objetivo personal',   type: 'goal' },
+  { source: 'kelsier', target: 'gran-reunion',      label: 'lideró',              type: 'event' },
+  { source: 'kelsier', target: 'atium',             label: 'objetivo del robo',   type: 'goal' },
+  { source: 'kelsier', target: 'guaricion-luthadel', label: 'debe neutralizar',   type: 'goal' },
+
+  // ── Vin — nuevas conexiones Cap.4 ────────────────────
+  { source: 'vin', target: 'gran-reunion',       label: 'asistió a',           type: 'event' },
+  { source: 'vin', target: 'breeze-sootha-vin',  label: 'víctima / aprendió',  type: 'event' },
+  { source: 'vin', target: 'snapping',           label: '¿cuándo Snapeó?',     type: 'trama' },
+
+  // ── Nuevos eventos ────────────────────────────────────
+  { source: 'cat-eventos', target: 'gran-reunion',       label: '', type: 'arc' },
+  { source: 'cat-eventos', target: 'breeze-sootha-vin',  label: '', type: 'arc' },
+  { source: 'cat-eventos', target: 'clubs-abandona',     label: '', type: 'arc' },
+
+  { source: 'gran-reunion', target: 'banda-kelsier',     label: 'formó',          type: 'event' },
+  { source: 'gran-reunion', target: 'gran-trabajo',      label: 'reveló el plan', type: 'event' },
+  { source: 'gran-reunion', target: 'luthadel',          label: 'ocurrió en',     type: 'geo' },
+  { source: 'clubs-abandona', target: 'gran-reunion',    label: 'ocurrió en',     type: 'event' },
+  { source: 'clubs-abandona', target: 'clubs',           label: 'protagonizada por', type: 'event' },
+  { source: 'breeze-sootha-vin', target: 'breeze',       label: 'ejecutada por',  type: 'event' },
+  { source: 'breeze-sootha-vin', target: 'vin',          label: 'sobre',          type: 'event' },
+
+  // ── Nuevos conceptos ──────────────────────────────────
+  { source: 'cat-magia', target: 'snapping',        label: '', type: 'arc' },
+  { source: 'cat-magia', target: 'undecimo-metal',  label: '', type: 'arc' },
+  { source: 'cat-magia', target: 'atium',           label: '', type: 'arc' },
+  { source: 'cat-magia', target: 'thug',            label: '', type: 'arc' },
+
+  { source: 'alomancia', target: 'thug',            label: 'tipo:',  type: 'magic' },
+  { source: 'alomancia', target: 'snapping',        label: 'activa mediante', type: 'magic' },
+  { source: 'alomancia', target: 'atium',           label: 'incluye', type: 'magic' },
+  { source: 'misting',   target: 'thug',            label: 'variante:', type: 'magic' },
+  { source: 'ocho-metales', target: 'undecimo-metal', label: 'más allá de los', type: 'lore' },
+  { source: 'undecimo-metal', target: 'matar-lord-ruler', label: 'clave para', type: 'goal' },
+  { source: 'undecimo-metal', target: 'senor-gobernante', label: 'vulnerabilidad de', type: 'conflict' },
+  { source: 'undecimo-metal', target: 'peninsula-lejana',  label: 'encontrado cerca de', type: 'geo' },
+  { source: 'atium',     target: 'senor-gobernante', label: 'sustenta poder de', type: 'rel' },
+  { source: 'atium',     target: 'gran-trabajo',     label: 'objetivo del robo', type: 'goal' },
+
+  // ── Nuevas tramas ─────────────────────────────────────
+  { source: 'cat-tramas', target: 'matar-lord-ruler', label: '', type: 'arc' },
+
+  { source: 'matar-lord-ruler', target: 'kelsier',          label: 'objetivo de',    type: 'trama' },
+  { source: 'matar-lord-ruler', target: 'mare',             label: 'motivada por',   type: 'history' },
+  { source: 'matar-lord-ruler', target: 'senor-gobernante', label: 'objetivo',       type: 'conflict' },
+  { source: 'matar-lord-ruler', target: 'undecimo-metal',   label: 'requiere',       type: 'goal' },
+
+  { source: 'gran-trabajo', target: 'guaricion-luthadel',   label: 'requiere neutralizar', type: 'goal' },
+  { source: 'gran-trabajo', target: 'atium',                label: 'objetivo principal', type: 'goal' },
+  { source: 'gran-trabajo', target: 'matar-lord-ruler',     label: 'incluye',        type: 'trama' },
+
+  { source: 'mare',         target: 'pozos-hathsin',        label: 'murió en',       type: 'history' },
+  { source: 'mare',         target: 'senor-gobernante',     label: 'tomada por',     type: 'conflict' },
+
+  // ── Facciones nuevas ──────────────────────────────────
+  { source: 'cat-facciones', target: 'guaricion-luthadel',  label: '', type: 'arc' },
+  { source: 'guaricion-luthadel', target: 'luthadel',       label: 'patrulla',       type: 'geo' },
+  { source: 'guaricion-luthadel', target: 'ministerio-acero', label: 'bajo autoridad del', type: 'rel' },
+
 ];
+
