@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════
 // NODES — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–4 (sin spoilers)
+// Prólogo + Capítulos 1–5 (sin spoilers)
 // Estructura: Personaje = quién + estado + "ver nodo X"
 //             Evento    = secuencia narrativa completa
 //             Concepto  = definición general
@@ -19,12 +19,12 @@ const nodes = [
   // ── CATEGORÍAS ────────────────────────────────────────
   {
     id: 'cat-kelsier', label: 'POV\nKelsier', group: 'CAT', type: 'Categoría',
-    desc: 'Nodos del punto de vista de Kelsier: Prólogo, Cap.2, Cap.3, Cap.4.',
+    desc: 'Nodos del punto de vista de Kelsier: Prólogo, Cap.2, Cap.3, Cap.4, Cap.5.',
     star: ''
   },
   {
     id: 'cat-vin', label: 'POV\nVin', group: 'CAT', type: 'Categoría',
-    desc: 'Nodos del punto de vista de Vin: Cap.1, Cap.2, Cap.3, Cap.4.',
+    desc: 'Nodos del punto de vista de Vin: Cap.1, Cap.2, Cap.3, Cap.4, Cap.5.',
     star: ''
   },
   {
@@ -44,12 +44,12 @@ const nodes = [
   },
   {
     id: 'cat-tramas', label: 'Tramas', group: 'CAT', type: 'Categoría',
-    desc: 'Hilos argumentales abiertos del Prólogo al Cap.4.',
+    desc: 'Hilos argumentales abiertos del Prólogo al Cap.5.',
     star: ''
   },
   {
     id: 'cat-eventos', label: 'Eventos', group: 'CAT', type: 'Categoría',
-    desc: 'Eventos clave del Prólogo al Cap.4.',
+    desc: 'Eventos clave del Prólogo al Cap.5.',
     star: ''
   },
 
@@ -60,8 +60,8 @@ const nodes = [
   // ── Protagonistas ─────────────────────────────────────
   {
     id: 'kelsier', label: 'Kelsier', group: 'KELS', type: 'Personaje — Mistborn (Medio-Sangre)',
-    desc: 'Conocido como "El Superviviente de Hathsin." Medio-sangre (padre noble, madre skaa). Cicatrices longitudinales en brazos — marca de los Pozos de Hathsin. Carismático, audaz, siempre sonriendo. Mistborn confirmado. No era Alomante antes de los Pozos: "Snapeó" allí bajo el trauma extremo, despertando sus poderes. Su esposa Mare murió en los Pozos — el Lord Ruler "la tomó de él". Pasó un año trabajando en los Pozos y descubrió que son la mina secreta de atium. Ha planeado el gran trabajo durante ocho meses. Posee el Undécimo Metal — una barra plateada del tamaño de un dedo, obtenida cerca de la Península Lejana — y pretende usarla para matar al Lord Ruler. Estado actual: el equipo está formado, el plan revelado, Vin oficialmente parte de la banda. Ver nodo: quema-manor, kelsier-distrae-inquisidor, kelsier-irrumpe-guarida, prueba-vial, reunion-muro, gran-reunion.',
-    star: '★★★ Mistborn y medio-sangre. Motivación triple: robar el atium, overthrow el Imperio, vengar a Mare. "El Lord Ruler y yo tenemos una deuda pendiente." No era Alomante antes de los Pozos — el trauma lo despertó.'
+    desc: 'Conocido como "El Superviviente de Hathsin." Medio-sangre (padre noble, madre skaa). Cicatrices longitudinales en brazos — marca de los Pozos de Hathsin. Carismático, audaz, siempre sonriendo. Mistborn confirmado. No era Alomante antes de los Pozos: "Snapeó" allí bajo el trauma extremo, despertando sus poderes. Antes de los Pozos era ya el crewleader más infame de Luthadel, sin Alomancia. Junto a Dockson (skaa escapado de plantación) y Mare (Tineye), pusieron de rodillas a Grandes Casas. Fue capturado solo cuando el Lord Gobernante mismo le tendió una trampa al intentar robar en Kredik Shaw. Entrenado en Alomancia por Gemmel, "el viejo lunático", tras escapar de los Pozos. Su esposa Mare murió en los Pozos. Posee el Undécimo Metal. Ha planeado el gran trabajo durante ocho meses. Estado actual: el equipo está completo con Clubs, Vin es parte oficial, robó atium de Keep Venture. Ver nodo: quema-manor, kelsier-distrae-inquisidor, kelsier-irrumpe-guarida, prueba-vial, reunion-muro, gran-reunion, clubs-regresa, robo-keep-venture.',
+    star: '★★★ Antes de los Pozos era el crewleader más infame de Luthadel — sin Alomancia alguna. Junto a Dockson y Mare pusieron de rodillas a las Grandes Casas. Fue Gemmel quien lo entrenó en Alomancia tras su escape. Motivación triple: robar el atium, overthrow el Imperio, vengar a Mare. "El Lord Ruler y yo tenemos una deuda pendiente."'
   },
   {
     id: 'vin', label: 'Vin', group: 'KELS', type: 'Personaje — Mistborn (Skaa / Medio-Sangre)',
@@ -72,7 +72,7 @@ const nodes = [
   // ── Equipo de Kelsier ─────────────────────────────────
   {
     id: 'dockson', label: 'Dockson', group: 'KELS', type: 'Personaje — Socio / Planificador',
-    desc: 'Socio de confianza de Kelsier. Complexión moderada, cara cuadrada, cabello negro, media barba corta. Traje nobiliario como Kelsier — mentira: no es noble. Estado actual: ha eliminado los dos espías del Ministerio que seguían a Camon, ha sido testigo de la confirmación de Vin como Mistborn. Ver nodo: reunion-muro, kelsier-observa-vin, kelsier-irrumpe-guarida, prueba-vial.',
+    desc: 'Socio de confianza de Kelsier. Complexión moderada, cara cuadrada, cabello negro, media barba corta. Traje nobiliario como Kelsier — mentira: no es noble. Skaa escapado de una plantación. Antes de los Pozos de Hathsin ya era socio de Kelsier y de Mare, cuando los tres operaban sin Alomancia. Estado actual: ha eliminado los dos espías del Ministerio que seguían a Camon, testigo del robo en Keep Venture. Ver nodo: reunion-muro, kelsier-observa-vin, kelsier-irrumpe-guarida, prueba-vial, kelsier-azotea-preparacion.',
     star: '★ "Dije que me volví aburrido, Kell. No descuidado." El organizador detrás de Kelsier.'
   },
   {
@@ -96,14 +96,14 @@ const nodes = [
     star: '★ "El Ministerio alcanza a todo el mundo tarde o temprano." Su muerte dejó al equipo sin Smoker.'
   },
   {
-    id: 'clubs', label: 'Clubs', group: 'KELS', type: 'Personaje — Smoker (Destino Incierto)',
-    desc: 'Smoker — uno de los mejores de la ciudad según Kelsier. Cara gnarled como madera retorcida, cojea al caminar, ojos con el nivel de desaprobación que solo los ancianos tienen. Tiene una tienda como fachada. En el Cap.4 asistió a la gran reunión pero, al escuchar el plan completo, lo declaró una idiotez y abandonó la sala de golpe. Kelsier lo dejó irse: "No voy a hacerle asesinar porque decidió que era demasiado peligroso." Estado actual: se fue de la reunión, destino incierto. Ver nodo: gran-reunion.',
-    star: '★★ "El Lord Ruler intentó matarte una vez — veo que no estarás satisfecho hasta que lo consiga." ¿Volverá Clubs? Kelsier confía en que no los traicionará. ¿Esa confianza está justificada?'
+    id: 'clubs', label: 'Clubs', group: 'KELS', type: 'Personaje — Smoker (Miembro del Equipo)',
+    desc: 'Smoker — uno de los mejores de la ciudad según Kelsier. Cara retorcida como madera anudada, cojea al caminar, ojos perpetuamente desaprobadores. Tiene una tienda como fachada, que ahora sirve de base al equipo. Abandonó la reunión al escuchar el plan completo — no por cobardía, sino para pensar sin la influencia de Breeze. Volvió por su propio pie, sin Soother en la sala, y declaró que se unía no por dinero, sino porque lleva toda su vida escondiendo Mistings del Lord Ruler y él los atrapa a todos de todas formas. Prefiere escupirle en la cara antes de caer. Su sobrino adolescente, desgarbado y silencioso, lo acompañó a la guarida. Estado actual: Smoker oficial del equipo, base operativa en su tienda. Ver nodo: gran-reunion, clubs-abandona, clubs-regresa.',
+    star: '★★★ No se une para ganar — se une porque perder con estilo tiene su propia dignidad. El equipo tiene ahora base y cobertura de cobre permanente.'
   },
   {
-    id: 'clubs-familiar', label: 'Familiar de\nClubs (Tineye)', group: 'KELS', type: 'Personaje — Tineye (Sin Confirmar)',
-    desc: 'Un familiar de Clubs es Tineye — Misting que quema Estaño. Mencionado en el Cap.2 como posible recluta. Estado actual: no apareció en la gran reunión del Cap.4. Pendiente de confirmar.',
-    star: ''
+    id: 'clubs-familiar', label: 'Sobrino\nde Clubs', group: 'KELS', type: 'Personaje — Misting (Sin Nombre Aún)',
+    desc: 'Sobrino adolescente de Clubs. Delgado, desgarbado, de aspecto torpe. Acompaña a Clubs a todas partes — le trae el vino, le acerca la silla, le cierra la puerta. No habla ni se presenta. Es Tineye (quema Estaño para mejorar los sentidos). Estado actual: en la nueva base del equipo en la tienda de Clubs. Ver nodo: clubs-regresa.',
+    star: '★ Figura silenciosa. Su tipo alomático hace del equipo una unidad más completa.'
   },
   {
     id: 'yeden', label: 'Yeden', group: 'SKAA', type: 'Personaje — Líder de la Rebelión Skaa',
@@ -521,8 +521,8 @@ const nodes = [
   },
   {
     id: 'identidad-heroe', label: 'El Héroe\nde las Edades', group: 'TRAMA', type: 'Trama — Gran Misterio',
-    desc: 'Voz de un diario que aparece en el epígrafe de cada capítulo desde el Prólogo. Íntima, insegura, cargada con el peso de una profecía: "A veces temo no ser el héroe que todos creen que soy." Los filósofos le aseguran que es el elegido. Pregunta: "Cuando me ven, ¿ven a un mentiroso?"',
-    star: '★★★ MISTERIO MAYOR. ¿Es del pasado? ¿Del futuro? ¿Es Kelsier? ¿El Señor Gobernante antes de serlo?'
+    desc: 'Voz de un diario que aparece en el epígrafe de cada capítulo. Íntima, insegura, cargada con el peso de una profecía: "A veces temo no ser el héroe que todos creen que soy." Los filósofos le aseguran que es el elegido. En el epígrafe del Cap.5 revela su misión específica: destruir La Oscuridad (La Profundidad), que arrasa el mundo incluso mientras escribe. Afirma ser el único capaz de detenerla. Si no lo logra, solo quedarán huesos y polvo.',
+    star: '★★★ MISTERIO MAYOR. ¿Es del pasado? ¿Del futuro? ¿Es Kelsier? ¿El Señor Gobernante antes de serlo? Ahora sabemos que ya había algo que destruir — La Oscuridad existía antes de que el Lord Ruler tomara el poder.'
   },
   {
     id: 'voz-epigrafe-cap1', label: 'Voz Arrogante\ndel Epígrafe', group: 'TRAMA', type: 'Trama — Misterio del Epígrafe',
@@ -557,8 +557,8 @@ const nodes = [
   // ── Nuevos personajes ─────────────────────────────────
   {
     id: 'mare', label: 'Mare 💀', group: 'KELS', type: 'Personaje — Esposa de Kelsier (Muerta)',
-    desc: 'Esposa de Kelsier. Fue enviada junto a él a los Pozos de Hathsin por el Señor Gobernante después de que alguien los traicionara. No sobrevivió los Pozos. Kelsier la menciona al revelar su motivación personal al equipo: "El Lord Ruler tomó a Mare de mí, y casi se llevó también mi cordura." Su muerte es el motor de la venganza personal de Kelsier.',
-    star: '★★ El núcleo de la motivación personal de Kelsier. ¿Quién los traicionó? ¿Quién entregó a Kelsier y a Mare al Lord Ruler?'
+    desc: 'Esposa de Kelsier. Tineye — quemaba Estaño para mejorar los sentidos. Formó trío con Kelsier y Dockson antes de los Pozos, cuando ninguno de los tres era Mistborn. Fue enviada junto a Kelsier a los Pozos de Hathsin tras una traición. No sobrevivió los Pozos. Kelsier la menciona como motor de su venganza personal: "El Lord Ruler la tomó de mí." En la noche anterior a cada trabajo, siempre estuvo a su lado en la azotea. Ahora solo hay niebla en su lugar.',
+    star: '★★ Tineye. El núcleo de la motivación personal de Kelsier. ¿Quién los traicionó? ¿Quién entregó a Kelsier y a Mare al Lord Ruler? Kelsier dice que ya sabe la respuesta — aun así, la cicatriz de la traición no cierra.'
   },
   {
     id: 'disten', label: 'Disten', group: 'SKAA', type: 'Personaje — Miembro Banda Milev',
@@ -622,6 +622,73 @@ const nodes = [
     id: 'matar-lord-ruler', label: 'Matar al\nSeñor Gobernante', group: 'TRAMA', type: 'Trama — Objetivo Personal de Kelsier',
     desc: 'El objetivo personal de Kelsier más allá del robo del atium. El Lord Ruler "tomó a Mare" de él y casi destruyó su cordura. Kelsier posee el Undécimo Metal — según una leyenda suprimida, el único punto de vulnerabilidad del Lord Ruler. Ham lo llama imposible: "La Astilla del Infinito. Es una pieza de Dios mismo. No puedes matarle." Kelsier no responde con palabras — solo con determinación. Si no puede matarlo, al menos planea sacarlo de la ciudad, capturarlo o dejarlo sin recursos. Ver nodo: undecimo-metal, mare, senor-gobernante.',
     star: '★★★ "Vin pensó: tiene que estar loco." Pero Kelsier fue a los Pozos y sobrevivió algo que nadie sobrevive. ¿Qué sabe que los demás no saben? ¿Qué le hicieron los Pozos que le da esta certeza?'
+  },
+
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 5 — NUEVOS NODOS
+  // ══════════════════════════════════════════════════════
+
+  // ── Personajes nuevos ─────────────────────────────────
+  {
+    id: 'gemmel', label: 'Gemmel', group: 'KELS', type: 'Personaje — Mentor Mistborn de Kelsier',
+    desc: 'Mistborn anciano, flaco, barba gris descuidada, pelo enmarañado. Parcialmente fuera de sus cabales — se detiene en medio de las frases, murmura para sí mismo, a veces parece más bestia que hombre. Entrenó a Kelsier en Alomancia tras su escape de los Pozos. Se especializa en Empujar y Jalar metales (Acero y Hierro) y desprecia los metales emocionales. Llevó a Kelsier a enfrentarse al Mistborn Antillius Shezler como prueba de combate real. Fue en la guarida de Shezler donde encontró notas sobre el Undécimo Metal y las entregó a Kelsier. Ya no aparece activamente. Recordado por Kelsier al describir las primeras reglas que aprendió: "Cuando Empujas algo, es como arrojar tu propio peso contra él."',
+    star: '★★ El hombre que convirtió al superviviente traumatizado en arma. Sus métodos eran brutales — pero funcionaron.'
+  },
+  {
+    id: 'oreseur', label: 'OreSeur', group: 'KELS', type: 'Personaje — Kandra bajo Contrato',
+    desc: 'Kandra bajo Contrato con Kelsier. Kelsier gastó casi todo su atium disponible para adquirir el Contrato de OreSeur — suma enorme que indica la importancia del papel que desempeñará. La naturaleza específica del Contrato es desconocida para Vin. Los kandra operan siempre bajo Contratos; son los únicos términos que reconocen como vinculantes. Estado actual: Contrato adquirido, rol concreto pendiente de revelarse.',
+    star: '★★★ Kelsier pagó casi todo su atium por este Contrato. ¿Qué misión justifica ese precio?'
+  },
+
+  // ── Conceptos nuevos ──────────────────────────────────
+  {
+    id: 'kandra', label: 'Los Kandra', group: 'MUNDO', type: 'Concepto — Especie / Criatura',
+    desc: 'Especie o criatura de naturaleza desconocida que opera exclusivamente bajo Contratos formales. Solo actúan si hay un Contrato vigente que lo estipule — es la única ley que reconocen. Kelsier tiene un kandra bajo Contrato. Sus capacidades concretas aún no han sido reveladas.',
+    star: '★★ Una especie que se rige por contratos como ley absoluta. ¿Qué pueden hacer que justifique tanto atium?'
+  },
+  {
+    id: 'capa-mistborn', label: 'Capa\nMistborn', group: 'MAGIA', type: 'Concepto — Símbolo / Equipo',
+    desc: 'Prenda icónica de los Mistborn. Confeccionada con cientos de tiras largas de tela gris oscuro cosidas en hombros y pecho pero sueltas entre sí, como flecos superpuestos. Su estructura imita el movimiento de la niebla: se ondula y gira al moverse, ocultando la silueta. Tiene dos funciones prácticas: camuflaje en la oscuridad y señal de advertencia a guardias y otros Mistborn.',
+    star: '★ No es solo ropa — es identidad. La capa es la señal de que quien la lleva puede matarte antes de que termines de verla.'
+  },
+  {
+    id: 'hazekillers', label: 'Hazekillers\n(Cazanieblas)', group: 'FACCION', type: 'Concepto — Especialistas Anti-Alomante',
+    desc: 'Soldados de élite entrenados específicamente para combatir Mistings y Mistborn. No llevan ningún metal en el cuerpo — ni armadura ni armas metálicas. Usan bastones de duelo de madera y escudos de madera. Sus escudos bloquean monedas disparadas alománticamente. Trabajan en grupos coordinados, atacando en pares y rotando posiciones para agotar al objetivo. Táctica: abrumar con números, privar al Mistborn de anclas metálicas, aguantar hasta que lleguen refuerzos alomáticos. Casa Venture mantiene al menos una docena. Ver nodo: robo-keep-venture.',
+    star: '★★ El punto ciego de la Alomancia: si no hay metal, no hay ancla. Ocho hazekillers sin metal son más peligrosos para un Mistborn que cien soldados armados.'
+  },
+  {
+    id: 'la-oscuridad', label: 'La Oscuridad\n(La Profundidad)', group: 'TRAMA', type: 'Trama — Misterio del Epígrafe',
+    desc: 'Amenaza mencionada en el epígrafe del Cap.5 por la voz del Héroe de las Edades. Llamada "La Profundidad", arrasa el mundo mientras el Héroe escribe. Él afirma ser el único capaz de destruirla, y que si falla solo quedarán huesos y polvo. Su naturaleza es completamente desconocida — podría ser física, sobrenatural, o vinculada al origen del Imperio Final.',
+    star: '★★★ ¿Qué era La Oscuridad? ¿Ya fue destruida — o es el mundo gris y cubierto de ceniza que vemos ahora el resultado de que el Héroe fracasara?'
+  },
+
+  // ── Lugares nuevos ────────────────────────────────────
+  {
+    id: 'keep-venture', label: 'Keep\nVenture', group: 'LUGAR', type: 'Lugar — Residencia de Casa Venture',
+    desc: 'Fortaleza-palacio de Casa Venture, la Gran Casa más poderosa de Luthadel. Arquitectura más artística que defensiva: contrafuertes que permiten enormes ventanales de vitral de piso a techo que iluminan la niebla con colores desde dentro. Posee muro defensivo exterior, balcón alto al sur, azotea de bronce o cobre, un conservatorio interior con plantas de colores inusuales (blancas, rojizas, amarillas — lujo de noble), y un estudio con caja fuerte oculta bajo un mural. Mantiene guardias, hazekillers y varios Mistings. Estado actual: fue infiltrada, varias ventanas destruidas, guardias muertos, su atium robado. Ver nodo: robo-keep-venture.',
+    star: '★★ La joya más vigilada de Luthadel, vulnerada en una sola noche. Casa Venture sabe que fue un Mistborn.'
+  },
+  {
+    id: 'tienda-clubs', label: 'Tienda\nde Clubs', group: 'LUGAR', type: 'Lugar — Base del Equipo',
+    desc: 'Local comercial de Clubs en Luthadel, utilizado como fachada. Ahora funciona como base de operaciones del equipo. Ventaja táctica clave: Clubs es Smoker — su nube de Cobre suprime cualquier rastro alomático dentro y alrededor del local, haciendo al equipo invisible para los Buscadores del Ministerio. Estado actual: siendo preparada para recibir a los próximos miembros del equipo.',
+    star: '★★ La cobertura de cobre de Clubs convierte la tienda en el único lugar de Luthadel donde el equipo puede usar Alomancia sin ser detectado.'
+  },
+
+  // ── Eventos nuevos ────────────────────────────────────
+  {
+    id: 'clubs-regresa', label: 'Clubs Regresa\nal Equipo (Cap.5)', group: 'EVENTO', type: 'Evento — Cap.5',
+    desc: 'Después de abandonar la reunión, Clubs regresa a la guarida de Milev con su sobrino adolescente. Esperó a que Breeze se marchara — necesitaba pensar sin un Soother en la sala que pudiera contaminar su decisión. Frente a Kelsier, Dockson y Vin declara que se une no por dinero sino porque lleva toda su vida escondiendo Mistings del Lord Ruler, y el Lord Ruler los atrapa de todas formas. Prefiere "escupirle en la cara al caer." Kelsier lo recibe sin sorpresa visible — ya contaba con su vuelta. Le informa que en un par de días llegarán más miembros y Clubs parte a preparar la tienda.',
+    star: '★★★ No se une para ganar. Se une porque perder con dignidad le importa más que sobrevivir en silencio. Kelsier lo sabía antes de que él mismo lo supiera.'
+  },
+  {
+    id: 'kelsier-azotea-preparacion', label: 'Preparación\nen la Azotea (Cap.5)', group: 'EVENTO', type: 'Evento — Cap.5',
+    desc: 'Kelsier, Dockson y Vin suben a la azotea de la guarida antes del robo. Kelsier se pone la capa Mistborn por primera vez ante ellos. Se descalza, se quita chaleco y todo metal excepto monedas y viales. Se bebe el mayor vial antes de saltar. En el borde de la azotea mira hacia el lado donde Mare siempre estaba en noches como esta — antes de los Pozos. Solo hay niebla. Dockson propone los objetivos posibles; Kelsier elige Keep Venture, la casa más fuerte y la que nadie consideraría atacar, precisamente por eso.',
+    star: '★★ El ritual pre-trabajo que compartía con Mare. Ahora lo observa Vin en silencio desde atrás, sin comprender el peso de lo que ve.'
+  },
+  {
+    id: 'robo-keep-venture', label: 'Robo en\nKeep Venture (Cap.5)', group: 'EVENTO', type: 'Evento — Cap.5',
+    desc: 'Infiltración nocturna de Kelsier en Keep Venture. (1) Vuela desde la azotea usando Jalar de Hierro sobre el techo de bronce. (2) Elimina un guardia con daga de cristal. (3) Empuja a dos guardias del balcón simultáneamente. (4) Atraviesa el conservatorio —plantas nobles de colores inusuales. (5) En el estudio, localiza la caja fuerte oculta tras un mural y arranca el mecanismo de cierre con Alomancia. (6) Ocho hazekillers irrumpen — combate prolongado sin metal disponible como ancla; usa un lingote de plata de escritorio como proyectil teledirigido con Jalar y Empujar alternados. Derrota a los hazekillers pero recibe golpes graves en brazo y costado. (7) Llegan Mistings nobles Empujadores y un grupo de Thugs. Escapa tirando la caja fuerte por una ventana, cae con ella controlando la velocidad, la caja se estrella y la abre: gemas, cartas de crédito de 10.000 boxings cada una, y una pequeña bolsa de atium. Regresa a la tienda de Clubs.',
+    star: '★★★ Entró a la fortaleza más vigilada de Luthadel solo, herido, y salió con el atium. El mensaje implícito a Casa Venture: ningún muro es suficiente.'
   },
 
 ];
