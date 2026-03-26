@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════
 // LINKS — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–3 (sin spoilers)
+// Prólogo + Capítulos 1–5 (sin spoilers)
 // ═══════════════════════════════════════════════════════
 
 const links = [
@@ -81,7 +81,6 @@ const links = [
   { source: 'vin', target: 'alomancia',                label: 'practica — Mistborn',       type: 'magic' },
   { source: 'vin', target: 'mistborn',                 label: 'confirmada Cap.3',          type: 'magic' },
   { source: 'vin', target: 'alomancia-emocional',      label: 'usa / resiste',             type: 'magic' },
-  { source: 'vin', target: 'reen',                     label: 'hermano / traición',        type: 'rel' },
   { source: 'vin', target: 'camon',                    label: 'fue miembro de',            type: 'rel' },
   { source: 'vin', target: 'ulef',                     label: 'traicionada por',           type: 'conflict' },
   { source: 'vin', target: 'luthadel',                 label: 'vive en',                   type: 'geo' },
@@ -121,9 +120,7 @@ const links = [
   { source: 'camon', target: 'golpiza-guarida', label: 'agresor',            type: 'conflict' },
   { source: 'camon', target: 'milev',           label: 'reemplazado por',    type: 'event' },
 
-  { source: 'milev', target: 'camon',       label: 'reemplaza a',      type: 'rel' },
   { source: 'milev', target: 'banda-camon', label: 'nuevo líder de',   type: 'rel' },
-  { source: 'milev', target: 'kelsier',     label: 'obedece a',        type: 'rel' },
   { source: 'milev', target: 'kelsier-irrumpe-guarida', label: 'participa en', type: 'event' },
 
   { source: 'theron', target: 'estafa-lord-jedue', label: 'diseñó (traicionado)', type: 'history' },
@@ -191,8 +188,6 @@ const links = [
 
   { source: 'banda-camon', target: 'skaa-faccion', label: 'son',       type: 'rel' },
   { source: 'banda-camon', target: 'luthadel',     label: 'opera en',  type: 'geo' },
-  { source: 'banda-camon', target: 'milev',        label: 'ahora liderada por', type: 'rel' },
-  { source: 'grandes-casas', target: 'luthadel',   label: 'sede en',   type: 'geo' },
   { source: 'grandes-casas', target: 'lord-venture', label: 'posiblemente incluye', type: 'rel' },
   { source: 'canton-finanzas', target: 'luthadel', label: 'sede en',   type: 'geo' },
   { source: 'canton-finanzas', target: 'canales',  label: 'usa',       type: 'lore' },
@@ -219,21 +214,12 @@ const links = [
   { source: 'alomancia-emocional', target: 'obligadores',  label: 'PROHIBIDO en',     type: 'conflict' },
 
   { source: 'mistborn', target: 'ocho-metales',   label: 'quema todos',      type: 'magic' },
-  { source: 'mistborn', target: 'kelsier',        label: 'Kelsier es',       type: 'magic' },
-  { source: 'mistborn', target: 'vin',            label: 'Vin es (Cap.3)',    type: 'magic' },
   { source: 'misting',  target: 'smoker',         label: 'variante:',        type: 'magic' },
   { source: 'misting',  target: 'tineye',         label: 'variante:',        type: 'magic' },
   { source: 'misting',  target: 'seeker',         label: 'variante:',        type: 'magic' },
-  { source: 'smoker',   target: 'trap',           label: 'era',              type: 'rel' },
-  { source: 'smoker',   target: 'clubs',          label: 'es',               type: 'rel' },
-  { source: 'tineye',   target: 'clubs-familiar', label: 'es',               type: 'rel' },
   { source: 'quemar-zinc', target: 'suerte-vin',  label: 'opuesto a',        type: 'magic' },
   { source: 'seeker',   target: 'inquisidores',   label: 'versión más débil que', type: 'magic' },
   { source: 'seeker',   target: 'smoker',         label: 'contrarrestado por', type: 'magic' },
-
-  // ── Objetos ───────────────────────────────────────────
-  { source: 'arete-vin',      target: 'madre-vin',  label: 'perteneció a', type: 'rel' },
-  { source: 'obsidiana-reen', target: 'reen',       label: 'dejada por',   type: 'rel' },
 
   // ══════════════════════════════════════════════════════
   // TRAMAS
@@ -250,11 +236,9 @@ const links = [
 
   { source: 'voz-epigrafe-cap1', target: 'profecia-terris', label: 'menciona',         type: 'trama' },
   { source: 'voz-epigrafe-cap1', target: 'identidad-heroe', label: '¿misma persona?',  type: 'trama' },
-  { source: 'voz-epigrafe-cap1', target: 'terris',          label: 'visitó',           type: 'trama' },
   { source: 'profecia-terris',   target: 'identidad-heroe', label: 'relacionada con',  type: 'trama' },
   { source: 'gran-trabajo',      target: 'kredik-shaw',     label: '¿objetivo?',       type: 'goal' },
   { source: 'gran-trabajo',      target: 'rebelion-skaa',   label: 'vinculado a',      type: 'trama' },
-  { source: 'gran-trabajo',      target: 'banda-kelsier',   label: 'requiere',         type: 'goal' },
   { source: 'vin-detectada',     target: 'inquisidores',    label: 'lanzó al',         type: 'conflict' },
   { source: 'vin-detectada',     target: 'suerte-vin',      label: 'causada por uso de', type: 'event' },
   { source: 'reclutar-marsh',    target: 'marsh',           label: 'objetivo',         type: 'trama' },
@@ -288,11 +272,9 @@ const links = [
   { source: 'quema-manor',              target: 'rebelion-skaa',       label: 'forzó inicio',   type: 'trama' },
   { source: 'quema-manor',              target: 'cuevas-este',         label: 'forzó huida a',  type: 'event' },
   { source: 'estafa-lord-jedue',        target: 'traicion-theron',     label: 'contiene',       type: 'event' },
-  { source: 'estafa-lord-jedue',        target: 'vin',                 label: 'Vin la salvó',   type: 'event' },
   { source: 'estafa-lord-jedue',        target: 'high-prelan-arriev',  label: 'víctima',        type: 'event' },
   { source: 'estafa-lord-jedue',        target: 'canton-finanzas',     label: 'objetivo',       type: 'event' },
   { source: 'estafa-lord-jedue',        target: 'vin-detectada',       label: 'causó',          type: 'trama' },
-  { source: 'traicion-theron',          target: 'camon',               label: 'ejecutada por',  type: 'event' },
   { source: 'traicion-ulef',            target: 'golpiza-guarida',     label: 'desencadenó',    type: 'event' },
   { source: 'golpiza-guarida',          target: 'kelsier-irrumpe-guarida', label: 'causa',      type: 'event' },
   { source: 'kelsier-irrumpe-guarida',  target: 'vin-resiste-alomancia', label: 'contiene',     type: 'event' },
@@ -302,7 +284,6 @@ const links = [
   { source: 'kelsier-distrae-inquisidor', target: 'vin-detectada',     label: 'responde a',     type: 'trama' },
 
   // ── Equipo de Kelsier ─────────────────────────────────
-  { source: 'dockson', target: 'kelsier',              label: 'socio de',            type: 'rel' },
   { source: 'dockson', target: 'banda-kelsier',        label: 'miembro de',          type: 'rel' },
   { source: 'dockson', target: 'luthadel',             label: 'opera en',            type: 'geo' },
   { source: 'dockson', target: 'reunion-muro',         label: 'protagoniza',         type: 'event' },
@@ -310,14 +291,10 @@ const links = [
   { source: 'dockson', target: 'kelsier-irrumpe-guarida', label: 'acompaña',         type: 'event' },
   { source: 'dockson', target: 'prueba-vial',          label: 'testigo',             type: 'event' },
   { source: 'dockson', target: 'vin',                  label: 'investigó',           type: 'history' },
-  { source: 'dockson', target: 'marsh',                label: 'recibió aviso de',    type: 'history' },
 
-  { source: 'marsh', target: 'kelsier',         label: 'hermano de',            type: 'rel' },
   { source: 'marsh', target: 'vin',             label: 'detectó poderes de',    type: 'history' },
-  { source: 'marsh', target: 'dockson',         label: 'avisó a',               type: 'history' },
   { source: 'marsh', target: 'rebelion-skaa',   label: 'antes involucrado',     type: 'history' },
   { source: 'marsh', target: 'yeden',           label: 'conoce a',              type: 'rel' },
-  { source: 'marsh', target: 'reclutar-marsh',  label: 'objetivo de',           type: 'trama' },
 
   { source: 'yeden',         target: 'rebelion-skaa', label: 'líder de',     type: 'rel' },
   { source: 'yeden',         target: 'banda-kelsier', label: 'cliente de',   type: 'rel' },
@@ -350,8 +327,6 @@ const links = [
   { source: 'high-prelan-arriev', target: 'obligadores', label: 'miembro de',   type: 'rel' },
   { source: 'high-prelan-arriev', target: 'canton-finanzas', label: 'jefe del consejo', type: 'rel' },
   { source: 'high-prelan-arriev', target: 'el-inquisidor', label: 'salió con',  type: 'rel' },
-  { source: 'kredik-shaw', target: 'senor-gobernante',   label: 'residencia de', type: 'geo' },
-  { source: 'kredik-shaw', target: 'luthadel',           label: 'en el centro de', type: 'geo' },
   { source: 'pozos-hathsin', target: 'senor-gobernante', label: 'mina de atium de', type: 'rel' },
   { source: 'pozos-hathsin', target: 'atium',            label: 'produce',      type: 'lore' },
   { source: 'pozos-hathsin', target: 'mare',             label: 'donde murió',  type: 'history' },
@@ -384,10 +359,6 @@ const links = [
   { source: 'gran-reunion', target: 'gran-trabajo',      label: 'reveló el plan', type: 'event' },
   { source: 'gran-reunion', target: 'luthadel',          label: 'ocurrió en',     type: 'geo' },
   { source: 'clubs-abandona', target: 'gran-reunion',    label: 'ocurrió en',     type: 'event' },
-  { source: 'clubs-abandona', target: 'clubs',           label: 'protagonizada por', type: 'event' },
-  { source: 'breeze-sootha-vin', target: 'breeze',       label: 'ejecutada por',  type: 'event' },
-  { source: 'breeze-sootha-vin', target: 'vin',          label: 'sobre',          type: 'event' },
-
   // ── Nuevos conceptos ──────────────────────────────────
   { source: 'cat-magia', target: 'snapping',        label: '', type: 'arc' },
   { source: 'cat-magia', target: 'undecimo-metal',  label: '', type: 'arc' },
@@ -408,22 +379,97 @@ const links = [
   // ── Nuevas tramas ─────────────────────────────────────
   { source: 'cat-tramas', target: 'matar-lord-ruler', label: '', type: 'arc' },
 
-  { source: 'matar-lord-ruler', target: 'kelsier',          label: 'objetivo de',    type: 'trama' },
   { source: 'matar-lord-ruler', target: 'mare',             label: 'motivada por',   type: 'history' },
   { source: 'matar-lord-ruler', target: 'senor-gobernante', label: 'objetivo',       type: 'conflict' },
-  { source: 'matar-lord-ruler', target: 'undecimo-metal',   label: 'requiere',       type: 'goal' },
 
   { source: 'gran-trabajo', target: 'guaricion-luthadel',   label: 'requiere neutralizar', type: 'goal' },
-  { source: 'gran-trabajo', target: 'atium',                label: 'objetivo principal', type: 'goal' },
   { source: 'gran-trabajo', target: 'matar-lord-ruler',     label: 'incluye',        type: 'trama' },
 
-  { source: 'mare',         target: 'pozos-hathsin',        label: 'murió en',       type: 'history' },
   { source: 'mare',         target: 'senor-gobernante',     label: 'tomada por',     type: 'conflict' },
 
   // ── Facciones nuevas ──────────────────────────────────
   { source: 'cat-facciones', target: 'guaricion-luthadel',  label: '', type: 'arc' },
   { source: 'guaricion-luthadel', target: 'luthadel',       label: 'patrulla',       type: 'geo' },
   { source: 'guaricion-luthadel', target: 'ministerio-acero', label: 'bajo autoridad del', type: 'rel' },
+
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 5 — LINKS
+  // ══════════════════════════════════════════════════════
+
+  // ── Kelsier — nuevas conexiones Cap.5 ────────────────
+  { source: 'kelsier', target: 'gemmel',                    label: 'entrenado por',           type: 'history' },
+  { source: 'kelsier', target: 'oreseur',                   label: 'contrató',                type: 'rel' },
+  { source: 'kelsier', target: 'capa-mistborn',             label: 'porta',                   type: 'rel' },
+  { source: 'kelsier', target: 'robo-keep-venture',         label: 'ejecuta',                 type: 'event' },
+  { source: 'kelsier', target: 'kelsier-azotea-preparacion', label: 'protagoniza',            type: 'event' },
+  { source: 'kelsier', target: 'keep-venture',              label: 'infiltra',                type: 'event' },
+  { source: 'kelsier', target: 'tienda-clubs',              label: 'nueva base en',           type: 'geo' },
+
+  // ── Vin — nuevas conexiones Cap.5 ────────────────────
+  { source: 'vin', target: 'kelsier-azotea-preparacion',    label: 'observa',                 type: 'event' },
+
+  // ── Clubs — nuevas conexiones ─────────────────────────
+  { source: 'clubs', target: 'clubs-regresa',               label: 'protagoniza',             type: 'event' },
+  { source: 'clubs', target: 'tienda-clubs',                label: 'opera desde',             type: 'geo' },
+  { source: 'clubs', target: 'clubs-familiar',              label: 'acompaña a',              type: 'rel' },
+  { source: 'clubs-familiar', target: 'clubs-regresa',      label: 'acompaña en',             type: 'event' },
+  { source: 'clubs-familiar', target: 'tienda-clubs',       label: 'reside en',               type: 'geo' },
+
+  // ── Mare — nuevas conexiones ──────────────────────────
+  { source: 'mare', target: 'alomancia',                    label: 'era Tineye',              type: 'magic' },
+  { source: 'mare', target: 'dockson',                      label: 'trio original con',       type: 'history' },
+
+  // ── Gemmel ────────────────────────────────────────────
+  { source: 'gemmel', target: 'undecimo-metal',             label: 'dirigió a Kelsier hacia', type: 'history' },
+  { source: 'gemmel', target: 'mistborn',                   label: 'es',                      type: 'magic' },
+
+  // ── OreSeur ───────────────────────────────────────────
+  { source: 'oreseur', target: 'kandra',                    label: 'es',                      type: 'rel' },
+  { source: 'oreseur', target: 'atium',                     label: 'Contrato pagado en',      type: 'rel' },
+
+  // ── Kandra ────────────────────────────────────────────
+  { source: 'cat-mundo', target: 'kandra',                  label: '',                        type: 'arc' },
+
+  // ── Hazekillers ───────────────────────────────────────
+  { source: 'cat-facciones', target: 'hazekillers',         label: '',                        type: 'arc' },
+  { source: 'hazekillers', target: 'keep-venture',          label: 'defienden',               type: 'rel' },
+  { source: 'hazekillers', target: 'nobleza',               label: 'empleados por',           type: 'rel' },
+  { source: 'hazekillers', target: 'robo-keep-venture',     label: 'participan en',           type: 'event' },
+
+  // ── Capa Mistborn ─────────────────────────────────────
+  { source: 'cat-magia', target: 'capa-mistborn',           label: '',                        type: 'arc' },
+  { source: 'capa-mistborn', target: 'mistborn',            label: 'símbolo de',              type: 'rel' },
+
+  // ── La Oscuridad ──────────────────────────────────────
+  { source: 'cat-tramas', target: 'la-oscuridad',           label: '',                        type: 'arc' },
+  { source: 'la-oscuridad', target: 'identidad-heroe',      label: 'amenaza que debe destruir', type: 'trama' },
+  { source: 'la-oscuridad', target: 'profecia-terris',      label: 'relacionada con',         type: 'trama' },
+
+  // ── Keep Venture ─────────────────────────────────────
+  { source: 'cat-mundo', target: 'keep-venture',            label: '',                        type: 'arc' },
+  { source: 'keep-venture', target: 'luthadel',             label: 'en',                      type: 'geo' },
+  { source: 'keep-venture', target: 'grandes-casas',        label: 'sede de',                 type: 'geo' },
+  { source: 'keep-venture', target: 'lord-venture',         label: 'pertenece a',             type: 'rel' },
+  { source: 'keep-venture', target: 'robo-keep-venture',    label: 'escenario de',            type: 'event' },
+
+  // ── Tienda Clubs ─────────────────────────────────────
+  { source: 'cat-mundo', target: 'tienda-clubs',            label: '',                        type: 'arc' },
+  { source: 'tienda-clubs', target: 'luthadel',             label: 'en',                      type: 'geo' },
+  { source: 'tienda-clubs', target: 'banda-kelsier',        label: 'base de',                 type: 'rel' },
+  { source: 'tienda-clubs', target: 'smoker',               label: 'cubierta por cobre de',   type: 'magic' },
+
+  // ── Nuevos eventos ────────────────────────────────────
+  { source: 'cat-eventos', target: 'clubs-regresa',                label: '', type: 'arc' },
+  { source: 'cat-eventos', target: 'kelsier-azotea-preparacion',   label: '', type: 'arc' },
+  { source: 'cat-eventos', target: 'robo-keep-venture',            label: '', type: 'arc' },
+
+  { source: 'clubs-regresa',              target: 'banda-kelsier',  label: 'completa al equipo', type: 'event' },
+  { source: 'clubs-regresa',              target: 'tienda-clubs',   label: 'lleva al equipo a',  type: 'event' },
+  { source: 'kelsier-azotea-preparacion', target: 'keep-venture',   label: 'elige objetivo',     type: 'event' },
+  { source: 'kelsier-azotea-preparacion', target: 'robo-keep-venture', label: 'precede a',       type: 'event' },
+  { source: 'kelsier-azotea-preparacion', target: 'mare',           label: 'recuerdo de',        type: 'history' },
+  { source: 'robo-keep-venture',          target: 'atium',          label: 'obtiene',            type: 'goal' },
+  { source: 'robo-keep-venture',          target: 'gran-trabajo',   label: 'financia',           type: 'goal' },
 
 ];
 
