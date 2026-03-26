@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════
 // SUMMARIES — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–3 (sin spoilers)
+// Prólogo + Capítulos 1–5 (sin spoilers)
 // Estructura real: UN epígrafe por capítulo, al inicio.
 // Textos extraídos directamente de los PDFs originales.
 // ═══════════════════════════════════════════════════════
@@ -113,6 +113,52 @@ Kelsier revela también su motivación personal: <em>«El Lord Ruler tomó a Mar
 <br><br>
 <strong>Vin se une oficialmente:</strong><br>
 Kelsier revela ante el grupo que Vin no es la "twixt" que todos asumían — es Mistborn. Yeden lo niega: <em>«Los skaa no pueden ser Mistborn.»</em> Breeze: <em>«Intenta no hablar tanto, amigo. Sonarás mucho menos estúpido.»</em> Vin decide quedarse. No por convicción en el plan — sino porque necesita aprender Alomancia para ser libre. <em>«Me ataré a este Kelsier si eso me lleva eventualmente a la libertad.»</em>`
+  },
+
+  {
+    chapter: 5,
+    title: "Capítulo 5 — El Superviviente Actúa",
+    summary: `
+<div class="epigraph">
+  <strong>Epígrafe — La misión del Héroe de las Edades:</strong><br>
+  <em>«Ni siquiera entiendo qué se supone que debo hacer. Los filósofos terris afirman que sabré cuál es mi deber cuando llegue el momento, pero es un consuelo muy pobre. La Profundidad debe ser destruida, y aparentemente soy el único que puede hacerlo. Devasta el mundo incluso ahora. Si no la detengo pronto, no quedará de esta tierra más que huesos y polvo.»</em>
+  <br><span class="epi-note">⚠ Por primera vez el Héroe de las Edades nombra su misión concreta: destruir La Profundidad (The Deepness). Escribe en tiempo presente — mientras el mundo ya está siendo arrasado. ¿La Profundidad fue destruida? ¿O el mundo gris, cubierto de ceniza y brumas que vemos en la novela es el resultado de que el Héroe fracasó?</span>
+</div>
+<br>
+<strong>Después de la reunión — Vin, Kelsier y Dockson a solas:</strong><br>
+Ham, Breeze y Yeden han marchado. Kelsier encuentra una botella de vino escondida en un cajón con fondo falso detrás de la barra: <em>«El truco es no dejar de buscar. Siempre hay otro secreto.»</em> Sirve tres copas. Vin acepta la suya pero no bebe — no prueba nada que no haya preparado ella misma. Kelsier y Dockson hablan con naturalidad de sus preocupaciones reales: necesitan otro Smoker, y Kelsier ya gastó casi todo su atium comprando el Contrato de OreSeur —una cantidad enorme. Dockson señala que también usó el último resto en la plantación de Tresting. Kelsier anuncia que necesita más atium y tiene pensado ir a buscarlo esa misma noche. Dockson lo mira con aprensión. Kelsier solo sonríe.
+<br><br>
+<strong>Clubs regresa:</strong><br>
+La escalera cruje. La puerta se abre y aparece Clubs — cara retorcida, cojera, desaprobación en cada arruga. Un adolescente desgarbado lo sigue en silencio. Clubs se sienta, le pide vino a su sobrino sin mirar, y explica por qué volvió: necesitaba pensar sin un Soother en la sala. <em>«Nunca puedes fiarte de ti mismo cuando Breeze está cerca.»</em> Kelsier señala que como Smoker, su nube de Cobre lo protege de la Alomancia emocional. Clubs encoge los hombros — no es solo Alomancia, es el tipo de hombre que es Breeze. Se une al equipo. No por el dinero. <em>«El Lord Ruler me va a atrapar tarde o temprano. Al menos así podré escupirle en la cara cuando caiga. Derrocar el Imperio Final... tiene estilo.»</em> Se levanta, le dice al sobrino que vayan a preparar la tienda, y sale sin más.
+<br><br>
+Vin le dice a Kelsier que sabía que Clubs regresaría. Kelsier: <em>«La gente se siente atraída por las visiones. Un trabajo como este... no es el tipo de cosa de la que uno simplemente se aleja.»</em>
+<br><br>
+<strong>La azotea — antes del robo:</strong><br>
+Kelsier, Dockson y Vin suben a la azotea de la guarida. La niebla lo envuelve todo. Kelsier se para en el borde como si el vacío no existiera — Dockson todavía no lo piensa como Mistborn y le pide que baje. Kelsier recuerda en silencio que antes, la noche anterior a cada trabajo, Mare siempre estaba a su lado en una azotea igual que esta. Ahora mira hacia ese lado y solo hay niebla. <em>«La niebla la reemplazó. Pobremente.»</em>
+<br><br>
+Se quita el chaleco, el abrigo y los zapatos — cualquier metal que no sea necesario. Saca de su mochila la <strong>capa Mistborn</strong>: cientos de tiras de tela gris oscuro cosidas en los hombros pero sueltas, como flecos que ondean. Dockson dice que nunca había estado tan cerca de alguien que llevara una. Vin pregunta qué es. Kelsier: <em>«Está construida para ocultarte en la niebla. Y avisa a guardias y a otros Mistborn que no te molesten.»</em> Se da una vuelta dramática dejando que las tiras vuelen. Dockson pone los ojos en blanco.
+<br><br>
+Kelsier pregunta qué casas han sido golpeadas recientemente. Dockson menciona dos, luego añade que la más poderosa del momento — Casa Venture — sería impensable. Tiene cientos de soldados, dos docenas de Mistings, y nadie la consideraría un objetivo. Kelsier: <em>«Pues allá voy.»</em> Se bebe el mayor vial de metales, lo deja con Dockson, tira una moneda al aire y salta al vacío.
+<br><br>
+<strong>El robo en Keep Venture:</strong><br>
+Kelsier cruza Luthadel nocturna volando entre tejados y chimeneas — quemando Hierro para jalarse hacia anclas metálicas lejanas, luego Acero para repeler monedas bajo sus pies y elevarse en arcos. Enciende el Estaño: la niebla se despeja para sus sentidos, el frío se hace más agudo, cada piedra bajo sus pies descalzos se registra con precisión.
+<br><br>
+Keep Venture brilla en la oscuridad: vitrales que iluminan la niebla de colores, contrafuertes elegantes, tejado de bronce. Jala desde el tejado metálico y asciende en arco. En la terraza superior, elimina a un guardia con daga de cristal antes de que pueda gritar. En el balcón del sur, empuja simultáneamente a dos guardias en direcciones opuestas — ambos caen al vacío lanzando gritos que se pierden en la niebla. Abre las puertas del balcón y entra.
+<br><br>
+El conservatorio: plantas de colores inusuales —blancas, rojizas, amarillas— cultivadas en bancales interiores bajo ventanales de piso a techo. Lujo que solo los nobles más poderosos pueden costear. El estudio siguiente está vacío y bien iluminado. Con Acero, detecta una fuente de metal detrás del mural pintado en la pared este — criaturas exóticas bajo un sol rojo. Una caja fuerte empotrada. Quema Peltre, se engancha con los pies en la pared, y jala con toda la fuerza amplificada hasta que el mecanismo de cierre cede y la caja sale desprendida de la piedra, cayendo al suelo con un golpe que levanta astillas.
+<br><br>
+Entran dos guardias. Kelsier los despacha en segundos — Jala la espada de uno en pleno vuelo y la agarra por la empuñadura; Empuja el puñal del segundo arrancándoselo de la mano, luego lanza su propia espada como proyectil contra el pecho desprotegido del segundo tras quitarle la armadura de un Empuje. Dos muertos.
+<br><br>
+<strong>Los hazekillers:</strong><br>
+Ocho figuras entran desde el estudio con túnicas grises, bastones de duelo y escudos de madera — ni un gramo de metal en sus cuerpos. Hazekillers. Kelsier deja caer la caja y se prepara. La batalla es desigual de una forma inesperada: sin anclas metálicas en sus oponentes, sus mejores herramientas quedan inutilizadas. Los escudos de madera desvían sus monedas. Trabajan en pares perfectamente coordinados.
+<br><br>
+Kelsier improvisa: arranca del escritorio un lingote de plata macizo y lo convierte en arma teledirigida, jalándolo y empujándolo entre atacantes con rapidez creciente. Consigue derribar a seis de los ocho —uno por ventana, varios por el lingote— pero paga el precio: un golpe de bastón en el brazo casi le rompe el hueso a pesar del Peltre, otro en el costado lo tira al suelo entre los bancales de plantas. Bebe su último vial para reponer el Peltre agotado.
+<br><br>
+Cuando el último hazekiller huye, entra por el estudio un nuevo grupo: nobles con ropa de gala, manos levantadas, ráfaga de monedas. <em>Alomancistas.</em> Thugs, Empujadores, Jaladores. Una mano invisible arranca su último vial del cinturón. <em>Hora de irse.</em>
+<br><br>
+Kelsier corre y salta por uno de los grandes ventanales rotos del conservatorio, cayendo al vacío de la noche. Jala la caja fuerte desde la planta de arriba — la caja se arrastra hacia el borde, cae, y él la usa de ancla para controlar su propia caída. La caja se estrella en los adoquines de abajo. Kelsier aterriza a su lado con el Peltre aguantando lo que habría matado a un hombre normal.
+<br><br>
+Abre la caja destrozada: gemas, varias cartas de crédito de 10.000 boxings cada una, y en el fondo —una bolsita pequeña de perlas oscuras y metálicas. Atium. Sus cicatrices arden con el recuerdo de los Pozos. Recoge su bolsa de monedas del cadáver del hazekiller arrojado por la ventana. <em>«Cualquier noche que termina con un grupo de nobles muertos es una noche exitosa.»</em> Echa a correr entre la niebla hacia la tienda de Clubs.`
   },
 
 ];
