@@ -1,12 +1,4 @@
-// ═══════════════════════════════════════════════════════
-// SUMMARIES — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–5 (sin spoilers)
-// Estructura real: UN epígrafe por capítulo, al inicio.
-// Textos extraídos directamente de los PDFs originales.
-// ═══════════════════════════════════════════════════════
-
 const chapterSummaries = [
-
   {
     chapter: 0,
     title: "Prólogo — La Ceniza Caía del Cielo",
@@ -23,7 +15,6 @@ const chapterSummaries = [
 <br><br>
 <strong>Amanecer:</strong> Donde estaba el manor solo queda una cicatriz negra y humeante. La hija de Jess está ilesa y confirma: <em>«Los mató a todos — los soldados, los mayordomos, los señores. Incluso a Lord Tresting y sus obligadores.»</em> Mennis comprende la estrategia: Kelsier no vino a liderar una rebelión, vino a crear una situación de la que los skaa ya no pudieran escapar sin huir. Ordena la marcha a las cuevas del este. <em>«Nuevos días, en verdad.»</em>`
   },
-
   {
     chapter: 1,
     title: "Capítulo 1 — La Suerte de Vin",
@@ -40,7 +31,6 @@ const chapterSummaries = [
 <br><br>
 <strong>La negociación:</strong> El Prelan Laird del Cantón de Finanzas llega y negocia. Cuando su desconfianza final amenaza con romper el trato, Vin usa su Suerte para suavizarla. Laird acepta llevar la propuesta al Consejo. La estafa funciona.`
   },
-
   {
     chapter: 2,
     title: "Capítulo 2 — El Superviviente en Luthadel",
@@ -57,7 +47,6 @@ const chapterSummaries = [
 <br><br>
 <strong>El Inquisidor aparece:</strong> Kelsier y Dockson observaban desde la sala de espera. Al salir Camon, Arriev aparece en la puerta con un Inquisidor del Acero detrás — primera vez en persona: alto, fuerte, clavos de metal atravesando las cuencas oculares. Un obligador detectó la Alomancia de Vin durante las reuniones previas. Kelsier bebe su vial de 8 metales y quemando Zinc distrae al Inquisidor haciéndolo girar. Dockson parte a eliminar los dos espías del Ministerio.`
   },
-
   {
     chapter: 3,
     title: "Capítulo 3 — El Superviviente de Hathsin",
@@ -80,7 +69,6 @@ const chapterSummaries = [
 <br><br>
 <strong>La revelación del padre:</strong> Dockson pregunta por sus padres. Madre: prostituta skaa que intentó matarla de niña — Reen la salvó. Padre: <strong>un high prelan del Ministerio del Acero.</strong> Kelsier: <em>«Eso es una brecha de deber ligeramente irónica.»</em> Su sangre noble es la fuente de los poderes de Vin. Kelsier cierra: <em>«No eres noble, Vin. No tienes que jugar según sus reglas — y eso te hace aún más poderosa.»</em>`
   },
-
   {
     chapter: 4,
     title: "Capítulo 4 — La Gran Reunión",
@@ -114,7 +102,6 @@ Kelsier revela también su motivación personal: <em>«El Lord Ruler tomó a Mar
 <strong>Vin se une oficialmente:</strong><br>
 Kelsier revela ante el grupo que Vin no es la "twixt" que todos asumían — es Mistborn. Yeden lo niega: <em>«Los skaa no pueden ser Mistborn.»</em> Breeze: <em>«Intenta no hablar tanto, amigo. Sonarás mucho menos estúpido.»</em> Vin decide quedarse. No por convicción en el plan — sino porque necesita aprender Alomancia para ser libre. <em>«Me ataré a este Kelsier si eso me lleva eventualmente a la libertad.»</em>`
   },
-
   {
     chapter: 5,
     title: "Capítulo 5 — El Superviviente Actúa",
@@ -160,5 +147,42 @@ Kelsier corre y salta por uno de los grandes ventanales rotos del conservatorio,
 <br><br>
 Abre la caja destrozada: gemas, varias cartas de crédito de 10.000 boxings cada una, y en el fondo —una bolsita pequeña de perlas oscuras y metálicas. Atium. Sus cicatrices arden con el recuerdo de los Pozos. Recoge su bolsa de monedas del cadáver del hazekiller arrojado por la ventana. <em>«Cualquier noche que termina con un grupo de nobles muertos es una noche exitosa.»</em> Echa a correr entre la niebla hacia la tienda de Clubs.`
   },
-
+  {
+    chapter: 6,
+    title: "Capítulo 6 — La Planificación del Imperio",
+    summary: `
+<div class="epigraph">
+  <strong>Epígrafe — El Héroe siente la meta:</strong><br>
+  <em>«Ni siquiera quería esto. Pero alguien tiene que detener la Profundidad, y aparentemente Terris es el único lugar donde puede hacerse. Sobre este hecho, sin embargo, no tengo que tomar la palabra de los filósofos. Puedo sentir nuestro objetivo ahora, puedo percibirlo, aunque los demás no puedan. Pulsa, en mi mente, lejos en las montañas.»</em>
+  <br><span class="epi-note">⚠ El Héroe ya <em>siente</em> físicamente su objetivo pulsando desde las montañas de Terris. No es solo una misión — es algo que llama. ¿Qué es ese pulso? ¿Está relacionado con La Profundidad o con el poder que debe usar para destruirla?</span>
+</div>
+<br>
+<strong>Primera mañana en la tienda de Clubs:</strong><br>
+Vin despierta en una habitación propia — algo que nunca ha tenido. El espacio le resulta inquietante por vacío, por cómodo. Durante la noche ya realizó una exploración silenciosa del edificio: dos plantas de habitaciones, taller de carpintería como fachada, cocina con mujeres skaa, apprentices trabajando desde el amanecer. Todo inusualmente limpio para un lugar skaa — el suelo barrido, las manos lavadas, sin hollín en los rincones. Ham llega de madrugada cargando bultos. Vin lleva un registro mental de dónde está cada miembro del equipo en todo momento, sin poder evitarlo.
+<br><br>
+Lestibournes — el sobrino de Clubs — aparece en su puerta para convocarla, pero habla en jerga oriental tan cerrada que Vin no entiende nada. Sube de todas formas.
+<br><br>
+<strong>La reunión de planificación:</strong><br>
+En una sala del tercer piso, con chimenea, sillas en semicírculo y una pizarra de carbón. Kelsier escribe los obstáculos uno a uno: Guarnición de Luthadel (20.000 soldados), Caos en la ciudad, Grandes Casas, Ministerio del Acero, asegurar el atium del tesoro, reclutar y entrenar tropas, preparar la rebelión skaa, el Señor Gobernante. La lista escrita da un vértigo diferente al del plan hablado. Yeden añade: «Y que estamos todos completamente locos.» Kelsier lo escribe también.
+<br><br>
+<strong>El plan toma forma — Guerra de Casas:</strong><br>
+El debate recorre opciones descartadas: revolución popular (imposible — los skaa están demasiado destruidos), un incendio (mataría skaa, no nobles), un ataque directo a la Guarnición (necesitarían un ejército igual o mayor). Kelsier plantea la solución: <em>hacer que las Grandes Casas se destruyan entre sí.</em> Guerras de casas ocurren cada dos o tres siglos — las tensiones llevan décadas acumulándose. Si Mistborn empieza a asesinar líderes de casa sin que nadie sepa quién, cada casa culpará a sus rivales. El caos resultante expondrá el palacio y neutralizará la Guarnición. El ataque a Keep Venture ya fue el primer paso: los rumores en la ciudad hablan de tres Mistborn enviados para asesinar a Straff Venture — ninguna de las Grandes Casas sabe que fue Kelsier robando atium.
+<br><br>
+<strong>El señuelo: atacar los Pozos de Hathsin:</strong><br>
+El problema que queda es la Guarnición: 20.000 soldados bien atrincherados. Vin pregunta en voz baja qué tan lejos están los Pozos de Hathsin. La sala se detiene. Breeze entiende de inmediato: los nobles no saben que los Pozos producen atium — el Señor Gobernante no puede movilizar los koloss para defenderlos sin revelar su importancia. Solo la Guarnición está en rango de reacción rápida. Un ejército pequeño de unos mil hombres amenazando los Pozos obligaría al Señor Gobernante a enviar la Guarnición. Con ella fuera de la ciudad, el ejército principal marcha desde las Cavernas Arguois, toma los muros de Luthadel y resiste hasta que recuperar la ciudad sea demasiado costoso.
+<br><br>
+<strong>Las Cavernas Arguois:</strong><br>
+Las cuevas de la rebelión, al norte. El Señor Gobernante las conoce pero las ignora — no son amenaza suficiente para el coste de un asalto subterráneo. Kelsier calcula que pueden albergar 10.000 personas. Yeden tiene actualmente unas 300 allí, incluyendo mujeres y niños. El objetivo: llegar a 10.000 soldados en un año. Plazo final: el plan se ejecuta en otoño del año siguiente.
+<br><br>
+<strong>Asignaciones del equipo:</strong><br>
+Breeze recluta tropas entre la población skaa de Luthadel y ciudades cercanas. Ham busca skaa que sirvieron en las Campañas de Supresión del Lord Ruler para entrenarlas — Yeden protesta, Kelsier lo impone. Kelsier comprará armas a través de Lord Renoux. Clubs puede fabricar armas de madera desde la tienda. Dockson coordinará la logística y debe viajar a las cuevas para evaluarlas y empezar a abastecerlas.
+<br><br>
+<strong>Lord Renoux — la verdad revelada:</strong><br>
+Kelsier menciona que tiene un «amigo» que puede proveer cobertura noble. Breeze se ríe antes de que termine de explicar: mató al verdadero Lord Renoux, noble occidental de la Dominancia Lejana, y lo reemplazó con un impostor en Fellise — ciudad satélite a una hora de Luthadel. El impostor tiene el aspecto exacto de Renoux. No puede entrar a Luthadel: los Inquisidores lo detectarían. Vin frunce el ceño — ¿qué clase de impostor necesita mantenerse alejado de los Inquisidores?
+<br><br>
+Para asistir a los eventos sociales en nombre de Renoux, necesitan a alguien como «heredero» del lord. Dockson está marcado por el Ministerio — el Señor Gobernante lo vio en persona y tiene memoria perfecta. Breeze tiene alias en uso. Ham no sabe actuar. Clubs es demasiado conocido. Yeden, impensable. Lestibournes habla de tal manera que nadie lo entiende. La elección recae en Vin. Kelsier escribe en la pizarra: <em>Vin: Infiltración.</em>
+<br><br>
+<strong>Marsh llega:</strong><br>
+Al terminar la reunión, una voz desde la puerta en sombras: <em>«Como el infierno que lo harás.»</em> Es Marsh — grande, cuadrado, con la misma cara que Kelsier pero sin la sonrisa. La silla al final del semicírculo, que nadie había ocupado, era para él. Yeden lo reconoce — se conocían de la rebelión. Marsh pide hablar en privado con su hermano. El equipo se retira. Vin va a su cuarto, espera tres minutos y vuelve a pegar la oreja a la puerta.`
+  },
 ];
