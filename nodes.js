@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════
 // NODES — Mistborn: El Imperio Final
-// Prólogo + Capítulos 1–5 (sin spoilers)
+// Prólogo + Capítulos 1–6 (sin spoilers)
 // Estructura: Personaje = quién + estado + "ver nodo X"
 //             Evento    = secuencia narrativa completa
 //             Concepto  = definición general
@@ -65,20 +65,20 @@ const nodes = [
   },
   {
     id: 'vin', label: 'Vin', group: 'KELS', type: 'Personaje — Mistborn (Skaa / Medio-Sangre)',
-    desc: 'Joven skaa de 16 años, menuda, aspecto juvenil. Segunda protagonista. Criada por su hermano Reen con filosofía brutal: "Cualquiera te traicionará." Llama "Suerte" a su Alomancia. Mistborn confirmada. Breeze la Suavizó sin que ella lo notara — pudo resistir a Kelsier pero no a Breeze — primera señal de que sus defensas tienen límites. Kelsier revela ante todo el equipo que es Mistborn. Decide quedarse y cooperar con el plan de Kelsier, no por convicción sino porque necesita aprender Alomancia para ser libre. "Me ataré a este Kelsier si eso me lleva a la libertad eventual." Estado actual: parte oficial del equipo, el grupo sabe que es Mistborn. Ver nodo: traicion-ulef, golpiza-guarida, vin-resiste-alomancia, prueba-vial, origen-padre-vin, gran-reunion.',
+    desc: 'Joven skaa de 16 años, menuda, aspecto juvenil. Segunda protagonista. Criada por su hermano Reen con filosofía brutal: "Cualquiera te traicionará." Llama "Suerte" a su Alomancia. Mistborn confirmada. Breeze la Suavizó sin que ella lo notara — pudo resistir a Kelsier pero no a Breeze — primera señal de que sus defensas tienen límites. Reen le dio algunas lecciones de cómo comportarse como noble. En la reunión de planificación del Cap.6 su sugerencia de "distraer al enemigo grande para que abandone su posición" inspira el plan de atacar los Pozos de Hathsin como señuelo. Kelsier la asigna al papel de heredera de Lord Renoux para infiltrarse en la alta nobleza. Rastrea los movimientos de todos en la tienda de Clubs, inspecciona la estructura, guarda comida de más — hábitos de supervivencia imposibles de apagar. Estado actual: asignada a infiltración noble, instalada en la tienda de Clubs. Ver nodo: traicion-ulef, golpiza-guarida, vin-resiste-alomancia, prueba-vial, origen-padre-vin, gran-reunion, infiltracion-vin, reunion-planificacion.',
     star: '★★★ MISTBORN CONFIRMADA. Breeze la Suavizó sin que lo notara — algo que Kelsier no logró. Sus defensas son entrenamiento, no instinto puro. "Nunca confíes en alguien que te da buenas noticias — es la forma más vieja de engañar a alguien." Y aun así se queda.'
   },
 
   // ── Equipo de Kelsier ─────────────────────────────────
   {
     id: 'dockson', label: 'Dockson', group: 'KELS', type: 'Personaje — Socio / Planificador',
-    desc: 'Socio de confianza de Kelsier. Complexión moderada, cara cuadrada, cabello negro, media barba corta. Traje nobiliario como Kelsier — mentira: no es noble. Skaa escapado de una plantación. Antes de los Pozos de Hathsin ya era socio de Kelsier y de Mare, cuando los tres operaban sin Alomancia. Estado actual: ha eliminado los dos espías del Ministerio que seguían a Camon, testigo del robo en Keep Venture. Ver nodo: reunion-muro, kelsier-observa-vin, kelsier-irrumpe-guarida, prueba-vial, kelsier-azotea-preparacion.',
+    desc: 'Socio de confianza de Kelsier. Complexión moderada, cara cuadrada, cabello negro, media barba corta. Traje nobiliario — mentira: no es noble. Skaa escapado de una plantación. Antes de los Pozos ya era socio de Kelsier y de Mare, cuando los tres operaban sin Alomancia. Marcado por el Ministerio tras el "trabajo Eiser": se hizo pasar por noble y fue descubierto — el propio Señor Gobernante lo vio en persona, y tiene memoria perfecta. Por eso no puede asumir el rol de heredero de Renoux en Luthadel. En la reunión de planificación del Cap.6 tomaba notas con rapidez en un cuaderno pequeño. Estado actual: coordinador logístico, debe empezar a abastecer las Cavernas Arguois; descartado para infiltración noble. Ver nodo: reunion-muro, kelsier-observa-vin, kelsier-irrumpe-guarida, prueba-vial, kelsier-azotea-preparacion, reunion-planificacion.',
     star: '★ "Dije que me volví aburrido, Kell. No descuidado." El organizador detrás de Kelsier.'
   },
   {
-    id: 'marsh', label: 'Marsh', group: 'KELS', type: 'Personaje — Hermano de Kelsier (Ausente)',
-    desc: 'Hermano de Kelsier, también medio-sangre. Desaprueba profundamente los métodos de su hermano. Estado actual: no quiere nada con Kelsier ni con la rebelión, pero Kelsier lo necesita para infiltrarse entre los obligadores. Fue el primero en detectar los poderes de Vin, meses antes. Ver nodo: reclutar-marsh.',
-    star: '★★ Detectó a Vin antes que nadie. Hermanos en lados opuestos de la misma causa.'
+    id: 'marsh', label: 'Marsh', group: 'KELS', type: 'Personaje — Hermano de Kelsier (Infiltrado)',
+    desc: 'Hermano de Kelsier, también medio-sangre. Complexión grande y cuadrada. Cara dura, familiar pero más severa que la de Kelsier. Viste ropa sencilla de skaa. Desaprueba los métodos de su hermano y lleva tiempo alejado de la rebelión. Fue el primero en detectar los poderes de Vin meses antes. Se unió finalmente al plan, aunque a su manera: apareció sin anuncio al final de la reunión de planificación del Cap.6, con la silla vacía que Kelsier había dejado reservada para él. Su rol: supervisar e infiltrarse en el Ministerio del Acero, vigilando a los Inquisidores. Quiere hablar con Kelsier en privado antes de comprometerse a los detalles. Estado actual: presente en la base, en conversación privada con Kelsier. Ver nodo: reclutar-marsh, reunion-planificacion, marsh-llega.',
+    star: '★★★ La silla vacía era para él desde el principio — Kelsier lo sabía. Hermanos en lados distintos de la misma causa, ahora en el mismo bando. El Ministerio tiene un nuevo problema.'
   },
   {
     id: 'breeze', label: 'Breeze', group: 'KELS', type: 'Personaje — Soother / Misting Latón',
@@ -101,9 +101,9 @@ const nodes = [
     star: '★★★ No se une para ganar — se une porque perder con estilo tiene su propia dignidad. El equipo tiene ahora base y cobertura de cobre permanente.'
   },
   {
-    id: 'clubs-familiar', label: 'Sobrino\nde Clubs', group: 'KELS', type: 'Personaje — Misting (Sin Nombre Aún)',
-    desc: 'Sobrino adolescente de Clubs. Delgado, desgarbado, de aspecto torpe. Acompaña a Clubs a todas partes — le trae el vino, le acerca la silla, le cierra la puerta. No habla ni se presenta. Es Tineye (quema Estaño para mejorar los sentidos). Estado actual: en la nueva base del equipo en la tienda de Clubs. Ver nodo: clubs-regresa.',
-    star: '★ Figura silenciosa. Su tipo alomático hace del equipo una unidad más completa.'
+    id: 'clubs-familiar', label: 'Lestibournes\n(Sobrino de Clubs)', group: 'KELS', type: 'Personaje — Tineye / Miembro del Equipo',
+    desc: 'Sobrino de Clubs. Quince años. Alto, delgado y desgarbado. Habla exclusivamente en jerga callejera del Este — construcciones de frases invertidas e impenetrables para los no iniciados ("Wasing the place when I was young"). Su nombre, Lestibournes, es en sí mismo jerga del Este: contracción de "lefting I\'m born", que significa "he sido abandonado". Clubs viajó a distancia y pagó una suma considerable para rescatarlo de su propio padre, quien iba a matarlo por temor al Ministerio al descubrir sus poderes alomáticos. Es Tineye — quema Estaño para amplificar los sentidos. Kelsier aún no le ha dado apodo. Estado actual: viviendo en la tienda de Clubs, sirviendo discretamente durante las reuniones del equipo. Ver nodo: clubs-regresa.',
+    star: '★★ Su nombre significa "he sido abandonado." Clubs cruzó el Imperio para rescatarlo. Silencioso, nervioso, incomprensible — pero sus oídos y ojos de Tineye son el activo más subestimado del equipo.'
   },
   {
     id: 'yeden', label: 'Yeden', group: 'SKAA', type: 'Personaje — Líder de la Rebelión Skaa',
@@ -188,9 +188,9 @@ const nodes = [
     star: '¿Qué papel jugará Lord Venture?'
   },
   {
-    id: 'lord-renoux', label: 'Lord Renoux', group: 'NOBLE', type: 'Personaje — Noble del Oeste (Mencionado)',
-    desc: 'Noble mencionado por Kelsier en el Prólogo como ejemplo de cambio posible: ha cesado palizas y considera pagar salarios. Estado actual: solo mencionado. Puede ser real o una historia fabricada por Kelsier.',
-    star: '¿Existe Lord Renoux?'
+    id: 'lord-renoux', label: 'Lord Renoux\n(Impostura)', group: 'KELS', type: 'Personaje / Frente — Noble Occidental (Muerto)',
+    desc: 'Noble occidental de la Dominancia Lejana. Kelsier lo mató y entregó sus huesos a OreSeur, el kandra bajo Contrato. Ahora "Lord Renoux" existe como frente operativo del equipo en Fellise: compra armamento, establece contactos con la nobleza y provee cobertura legal. Su historia oficial: nobleza menor occidental que busca elevar su familia a alto rango expandiendo el comercio de armas del sur. No puede acercarse a Luthadel — los Inquisidores detectarían a OreSeur. Vin actúa como su "pupila o heredera" para asistir a los eventos sociales en su lugar. Ver nodo: oreseur, fellise, infiltracion-vin.',
+    star: '★★★ Un noble muerto que sigue comprando armas y recibiendo visitas. Los kandra son la única especie que puede sostener una impostura así indefinidamente.'
   },
   {
     id: 'padre-vin', label: 'Padre de Vin\n(High Prelan)', group: 'MINISTERIO', type: 'Personaje — High Prelan (Ausente)',
@@ -543,9 +543,9 @@ const nodes = [
     star: '★★ Crisis inmediata resuelta. Peligro a largo plazo latente. El Inquisidor no fue eliminado — solo redirigido.'
   },
   {
-    id: 'reclutar-marsh', label: 'Reclutar a Marsh\n(Trama Abierta)', group: 'TRAMA', type: 'Trama — Abierta',
-    desc: 'Kelsier necesita que su hermano Marsh se infiltre entre los obligadores para el gran trabajo. Marsh desaprueba los métodos de Kelsier y ya no quiere nada con la rebelión ni con el inframundo. Kelsier insiste en que lo convencerá.',
-    star: '★★ Hermanos en lados opuestos de la misma causa. La conversación pendiente es un choque inevitable.'
+    id: 'reclutar-marsh', label: 'Reclutar a Marsh\n(Trama Resuelta)', group: 'TRAMA', type: 'Trama — Resuelta',
+    desc: 'Kelsier necesitaba que su hermano Marsh se infiltrara entre los obligadores. Marsh se resistía — desaprobaba los métodos de Kelsier y ya no quería nada con el inframundo. La silla vacía en la reunión de planificación del Cap.6 era para él. Apareció al final sin previo aviso y pidió hablar en privado con Kelsier. Trama resuelta: Marsh se unió al equipo.',
+    star: '★★ La conversación que parecía imposible, ocurrió.'
   },
 
   // ══════════════════════════════════════════════════════
@@ -625,7 +625,6 @@ const nodes = [
   // ══════════════════════════════════════════════════════
   // CAPÍTULO 5 — NUEVOS NODOS
   // ══════════════════════════════════════════════════════
-
   // ── Personajes nuevos ─────────────────────────────────
   {
     id: 'gemmel', label: 'Gemmel', group: 'KELS', type: 'Personaje — Mentor Mistborn de Kelsier',
@@ -633,11 +632,10 @@ const nodes = [
     star: '★★ El hombre que convirtió al superviviente traumatizado en arma. Sus métodos eran brutales — pero funcionaron.'
   },
   {
-    id: 'oreseur', label: 'OreSeur', group: 'KELS', type: 'Personaje — Kandra bajo Contrato',
-    desc: 'Kandra bajo Contrato con Kelsier. Kelsier gastó casi todo su atium disponible para adquirir el Contrato de OreSeur — suma enorme que indica la importancia del papel que desempeñará. La naturaleza específica del Contrato es desconocida para Vin. Los kandra operan siempre bajo Contratos; son los únicos términos que reconocen como vinculantes. Estado actual: Contrato adquirido, rol concreto pendiente de revelarse.',
-    star: '★★★ Kelsier pagó casi todo su atium por este Contrato. ¿Qué misión justifica ese precio?'
+    id: 'oreseur', label: 'OreSeur\n(Lord Renoux)', group: 'KELS', type: 'Personaje — Kandra / Impostor de Lord Renoux',
+    desc: 'Kandra bajo Contrato con Kelsier. Su misión concreta: impersonar al Lord Renoux, un noble occidental de la Dominancia Lejana al que Kelsier mató. OreSeur tiene el aspecto exacto de Renoux. Opera desde Fellise — ciudad suburbio a una hora de Luthadel — donde Renoux tiene establecida su residencia. Desde allí actúa como frente noble del equipo: compra armas en nombre de Renoux, establece contactos comerciales, y proporciona cobertura legal para el plan. No puede acercarse a Inquisidores del Acero — estos detectarían que no es humano. El Contrato fue pagado por Kelsier con casi todo su atium disponible. Estado actual: establecido en Fellise como "Lord Renoux." Ver nodo: kandra, lord-renoux.',
+    star: '★★★ Impersonar un noble vivo es complejo. Impersonar uno muerto, con huesos propios, es el negocio de los kandra. ¿Qué ocurre si alguien que conoció al verdadero Renoux se acerca demasiado?'
   },
-
   // ── Conceptos nuevos ──────────────────────────────────
   {
     id: 'kandra', label: 'Los Kandra', group: 'MUNDO', type: 'Concepto — Especie / Criatura',
@@ -659,7 +657,6 @@ const nodes = [
     desc: 'Amenaza mencionada en el epígrafe del Cap.5 por la voz del Héroe de las Edades. Llamada "La Profundidad", arrasa el mundo mientras el Héroe escribe. Él afirma ser el único capaz de destruirla, y que si falla solo quedarán huesos y polvo. Su naturaleza es completamente desconocida — podría ser física, sobrenatural, o vinculada al origen del Imperio Final.',
     star: '★★★ ¿Qué era La Oscuridad? ¿Ya fue destruida — o es el mundo gris y cubierto de ceniza que vemos ahora el resultado de que el Héroe fracasara?'
   },
-
   // ── Lugares nuevos ────────────────────────────────────
   {
     id: 'keep-venture', label: 'Keep\nVenture', group: 'LUGAR', type: 'Lugar — Residencia de Casa Venture',
@@ -671,7 +668,6 @@ const nodes = [
     desc: 'Local comercial de Clubs en Luthadel, utilizado como fachada. Ahora funciona como base de operaciones del equipo. Ventaja táctica clave: Clubs es Smoker — su nube de Cobre suprime cualquier rastro alomático dentro y alrededor del local, haciendo al equipo invisible para los Buscadores del Ministerio. Estado actual: siendo preparada para recibir a los próximos miembros del equipo.',
     star: '★★ La cobertura de cobre de Clubs convierte la tienda en el único lugar de Luthadel donde el equipo puede usar Alomancia sin ser detectado.'
   },
-
   // ── Eventos nuevos ────────────────────────────────────
   {
     id: 'clubs-regresa', label: 'Clubs Regresa\nal Equipo', group: 'EVENTO', type: 'Evento',
@@ -688,5 +684,48 @@ const nodes = [
     desc: 'Infiltración nocturna de Kelsier en Keep Venture. (1) Vuela desde la azotea usando Jalar de Hierro sobre el techo de bronce. (2) Elimina un guardia con daga de cristal. (3) Empuja a dos guardias del balcón simultáneamente. (4) Atraviesa el conservatorio —plantas nobles de colores inusuales. (5) En el estudio, localiza la caja fuerte oculta tras un mural y arranca el mecanismo de cierre con Alomancia. (6) Ocho hazekillers irrumpen — combate prolongado sin metal disponible como ancla; usa un lingote de plata de escritorio como proyectil teledirigido con Jalar y Empujar alternados. Derrota a los hazekillers pero recibe golpes graves en brazo y costado. (7) Llegan Mistings nobles Empujadores y un grupo de Thugs. Escapa tirando la caja fuerte por una ventana, cae con ella controlando la velocidad, la caja se estrella y la abre: gemas, cartas de crédito de 10.000 boxings cada una, y una pequeña bolsa de atium. Regresa a la tienda de Clubs.',
     star: '★★★ Entró a la fortaleza más vigilada de Luthadel solo, herido, y salió con el atium. El mensaje implícito a Casa Venture: ningún muro es suficiente.'
   },
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 6 — NUEVOS NODOS
+  // ══════════════════════════════════════════════════════
+  // ── Personajes ────────────────────────────────────────
+  {
+    id: 'straff-venture', label: 'Straff Venture', group: 'NOBLEZA', type: 'Personaje — Señor de Casa Venture',
+    desc: 'Señor de Casa Venture, la Gran Casa más poderosa de Luthadel. El ataque de Kelsier a Keep Venture está siendo atribuido por todos a otra Gran Casa — los rumores hablan de tres Mistborn enviados para asesinarlo a él personalmente. Straff tiene una opinión elevada de sí mismo: asumir que tres Mistborn vinieron por él, cuando Kelsier fue solo a robar atium. Estado actual: vivo, furioso, buscando culpables entre las Grandes Casas. Ver nodo: keep-venture, robo-keep-venture, guerra-casas.',
+    star: '★★ Su paranoia es exactamente lo que Kelsier necesita. Un noble convencido de que lo atacaron es un noble que ataca a sus vecinos.'
+  },
+  // ── Lugares ───────────────────────────────────────────
+  {
+    id: 'fellise', label: 'Fellise', group: 'LUGAR', type: 'Lugar — Ciudad Suburbio',
+    desc: 'Ciudad satélite a aproximadamente una hora de Luthadel. Más pequeña y con menos influencia que la capital — un noble necesita más poder para establecerse en Luthadel que en Fellise. Vin vivió y operó aquí con Reen antes de mudarse a la capital. Lord Renoux (OreSeur) tiene aquí su residencia y sus operaciones. Estado actual: base de operaciones noble encubierta del equipo.',
+    star: '★ Lo suficientemente cerca para coordinar con Luthadel. Lo suficientemente lejos para evitar la vigilancia más intensa del Ministerio.'
+  },
+  {
+    id: 'arguois-cavernas', label: 'Cavernas\nArguois', group: 'LUGAR', type: 'Lugar — Base Militar Rebelde',
+    desc: 'Red de cuevas al norte de Luthadel, usadas desde hace años por la rebelión skaa para esconder personas. El Señor Gobernante las conoce pero no las ha destruido — una operación de limpieza en cuevas siempre tiene un coste alto y las fuerzas allí no han sido amenaza suficiente. Kelsier calcula que pueden albergar hasta 10.000 personas. Están dentro del radio de distancia operativo: más cercanas a Luthadel que a los Pozos de Hathsin. Serán la base del ejército rebelde. Yeden tiene actualmente unas 300 personas allí (incluyendo mujeres y niños). Dockson debe hacer una visita para evaluar las condiciones y empezar a abastecer. Estado actual: en uso por la rebelión, capacidad a expandir.',
+    star: '★★★ El lugar donde 300 skaa se convertirán en 10.000. El Lord Ruler las ignora porque no son una amenaza. Todavía.'
+  },
 
+  // ── Tramas nuevas ─────────────────────────────────────
+  {
+    id: 'guerra-casas', label: 'La Guerra\nde las Casas', group: 'TRAMA', type: 'Trama — Plan en Marcha',
+    desc: 'Estrategia de Kelsier para crear el caos necesario en Luthadel: usar Mistborn para asesinar líderes de las Grandes Casas, haciendo que cada casa culpe a sus rivales. Las guerras de casas ocurren cada dos o tres siglos — las tensiones están maduras. Cuando la violencia sea abierta, el Señor Gobernante no podrá usar los koloss en su propia capital sin destruirla; y el palacio quedará expuesto. El ataque a Keep Venture fue el primer paso: ya hay rumores de que fue una Gran Casa la que envió Mistborn. Kelsier planifica estos ataques junto a Breeze. Estado actual: iniciada con el ataque a Keep Venture. Ver nodo: robo-keep-venture, grandes-casas, gran-trabajo.',
+    star: '★★★ Hacer que los nobles se maten entre sí es más eficiente que enfrentarlos directamente. El caos es una herramienta, no un accidente.'
+  },
+  {
+    id: 'infiltracion-vin', label: 'Vin Infiltra\nla Nobleza', group: 'TRAMA', type: 'Trama — Asignación Abierta',
+    desc: 'Kelsier asigna a Vin el papel de "heredera o pupila de Lord Renoux" para asistir a los eventos sociales de la alta nobleza en Luthadel: bailes, recepciones, reuniones. Su objetivo: rastrear alianzas y tensiones entre Grandes Casas para alimentar la guerra de casas. Reen le dio algunas lecciones básicas sobre comportamiento noble, pero Vin nunca ha practicado en contexto real. Es la única del equipo sin pasado en la nobleza ni compromiso que la descarte: Dockson está marcado, Breeze tiene alias previos que podrían cruzarse, Clubs es demasiado conocido como artesano skaa, Ham no sabe actuar, Yeden jamás, Lestibournes es incomprensible. Vin es la opción por descarte — pero Kelsier no lo dice así. Estado actual: asignada, sin preparación específica iniciada aún.',
+    star: '★★★ Una ladrona skaa de 16 años disfrazada de dama noble en las fiestas más vigiladas del Imperio. La misión más expuesta del plan — y la que nadie más puede hacer.'
+  },
+
+  // ── Eventos ───────────────────────────────────────────
+  {
+    id: 'reunion-planificacion', label: 'Reunión de\nPlanificación (Cap.6)', group: 'EVENTO', type: 'Evento — Cap.6',
+    desc: 'Primera sesión formal de planificación del equipo completo en la tienda de Clubs. Kelsier escribe en una pizarra los problemas a resolver: (1) Guarnición de Luthadel (20.000 soldados), (2) Caos en la ciudad, (3) Grandes Casas, (4) Ministerio, (5) Asegurar el atium del tesoro, (6) Reclutar y entrenar tropas, (7) La rebelión skaa, (8) El Señor Gobernante. Plan desarrollado: guerra de casas para el caos; atacar los Pozos de Hathsin con un ejército señuelo para sacar a la Guarnición; marchar el ejército principal desde las Cavernas Arguois y tomar Luthadel. Asignaciones: Breeze recluta tropas, Ham las entrena, Kelsier compra armas a través de Renoux, Vin se infiltra en la nobleza, Marsh vigila el Ministerio. Yeden tiene unas 300 personas en las cuevas y necesita llegar a 10.000 en un año. Plazo: el plan se ejecuta en un año, en otoño. La última silla vacía era para Marsh, quien llegó al final.',
+    star: '★★★ El plan completo toma forma. Cada miembro del equipo tiene su función. La escala es absurda — y todos lo saben.'
+  },
+  {
+    id: 'marsh-llega', label: 'Marsh Llega\nal Equipo (Cap.6)', group: 'EVENTO', type: 'Evento — Cap.6',
+    desc: 'Al terminar la reunión de planificación, una voz desde la puerta en sombras interrumpe: "Como el infierno que lo harás." Es Marsh. La silla vacía que Kelsier había dejado al final del semicírculo era para él. Yeden lo reconoce con alivio — ya lo conocía de su tiempo en la rebelión. Marsh pide hablar en privado con Kelsier. El equipo se retira; Vin va a su cuarto pero vuelve a escuchar desde la puerta a los tres minutos.',
+    star: '★★ Kelsier dejó la silla vacía a propósito — sabía que Marsh vendría. No anunció su llegada. La confianza entre hermanos funciona sin palabras.'
+  }
 ];
