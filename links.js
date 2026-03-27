@@ -471,5 +471,97 @@ const links = [
   { source: 'robo-keep-venture',          target: 'atium',          label: 'obtiene',            type: 'goal' },
   { source: 'robo-keep-venture',          target: 'gran-trabajo',   label: 'financia',           type: 'goal' },
 
+  // ══════════════════════════════════════════════════════
+  // CAPÍTULO 6 — LINKS
+  // ══════════════════════════════════════════════════════
+
+  // ── Actualizaciones de capítulos anteriores ──────────
+  { source: 'reclutar-marsh',          target: 'marsh',              label: 'resuelto — se unió',       type: 'trama' },
+
+  // ── Kelsier ───────────────────────────────────────────
+  { source: 'kelsier', target: 'lord-renoux',           label: 'mató / reemplazó con OreSeur', type: 'history' },
+  { source: 'kelsier', target: 'guerra-casas',          label: 'orquesta',                     type: 'goal' },
+  { source: 'kelsier', target: 'straff-venture',        label: 'atacó (indirectamente)',        type: 'conflict' },
+  { source: 'kelsier', target: 'reunion-planificacion', label: 'lideró',                       type: 'event' },
+  { source: 'kelsier', target: 'arguois-cavernas',      label: 'usará como base',              type: 'goal' },
+  { source: 'kelsier', target: 'fellise',               label: 'opera desde (Renoux)',          type: 'geo' },
+  { source: 'kelsier', target: 'marsh-llega',           label: 'recibió a Marsh en',           type: 'event' },
+  { source: 'kelsier', target: 'infiltracion-vin',      label: 'asignó a Vin',                 type: 'goal' },
+
+  // ── Vin ───────────────────────────────────────────────
+  { source: 'vin', target: 'reunion-planificacion',     label: 'asistió / contribuyó',         type: 'event' },
+  { source: 'vin', target: 'infiltracion-vin',          label: 'asignada a',                   type: 'trama' },
+  { source: 'vin', target: 'lord-renoux',               label: 'actuará como heredera de',     type: 'rel' },
+  { source: 'vin', target: 'fellise',                   label: 'vivió antes con Reen',         type: 'history' },
+  { source: 'vin', target: 'marsh-llega',               label: 'escuchó tras la puerta',       type: 'event' },
+
+  // ── Marsh ─────────────────────────────────────────────
+  { source: 'marsh', target: 'ministerio-acero',        label: 'infiltrará',                   type: 'goal' },
+  { source: 'marsh', target: 'marsh-llega',             label: 'protagoniza',                  type: 'event' },
+  { source: 'marsh', target: 'reunion-planificacion',   label: 'llegó al final de',            type: 'event' },
+
+  // ── Dockson ───────────────────────────────────────────
+  { source: 'dockson', target: 'reunion-planificacion', label: 'tomó notas en',                type: 'event' },
+  { source: 'dockson', target: 'arguois-cavernas',      label: 'debe abastecer',               type: 'goal' },
+  { source: 'dockson', target: 'senor-gobernante',      label: 'fue visto por (marcado)',       type: 'conflict' },
+
+  // ── Breeze ────────────────────────────────────────────
+  { source: 'breeze', target: 'reunion-planificacion',  label: 'asistió',                      type: 'event' },
+  { source: 'breeze', target: 'guerra-casas',           label: 'planifica con Kelsier',        type: 'goal' },
+  { source: 'breeze', target: 'arguois-cavernas',       label: 'reclutará soldados para',      type: 'goal' },
+
+  // ── Ham ───────────────────────────────────────────────
+  { source: 'ham', target: 'reunion-planificacion',     label: 'asistió',                      type: 'event' },
+  { source: 'ham', target: 'arguois-cavernas',          label: 'entrenará tropas en',          type: 'goal' },
+
+  // ── Clubs ─────────────────────────────────────────────
+  { source: 'clubs', target: 'reunion-planificacion',   label: 'asistió',                      type: 'event' },
+  { source: 'clubs', target: 'tienda-clubs',            label: 'fabrica armas en',             type: 'goal' },
+
+  // ── Lestibournes ─────────────────────────────────────
+  { source: 'clubs-familiar', target: 'reunion-planificacion', label: 'presente en',           type: 'event' },
+
+  // ── Yeden ─────────────────────────────────────────────
+  { source: 'yeden', target: 'reunion-planificacion',   label: 'asistió',                      type: 'event' },
+  { source: 'yeden', target: 'arguois-cavernas',        label: 'tiene ~300 personas en',       type: 'rel' },
+
+  // ── OreSeur / Lord Renoux ────────────────────────────
+  { source: 'oreseur', target: 'lord-renoux',           label: 'impersona a',                  type: 'rel' },
+  { source: 'oreseur', target: 'fellise',               label: 'opera desde',                  type: 'geo' },
+  { source: 'lord-renoux', target: 'fellise',           label: 'residencia en',                type: 'geo' },
+  { source: 'lord-renoux', target: 'infiltracion-vin',  label: 'frente para',                  type: 'rel' },
+  { source: 'lord-renoux', target: 'guerra-casas',      label: 'compra armas para',            type: 'goal' },
+
+  // ── Straff Venture ────────────────────────────────────
+  { source: 'straff-venture', target: 'keep-venture',   label: 'señor de',                     type: 'rel' },
+  { source: 'straff-venture', target: 'grandes-casas',  label: 'lidera',                       type: 'rel' },
+  { source: 'straff-venture', target: 'guerra-casas',   label: 'primer objetivo de',           type: 'conflict' },
+
+  // ── Fellise ───────────────────────────────────────────
+  { source: 'cat-mundo', target: 'fellise',             label: '',                             type: 'arc' },
+  { source: 'fellise', target: 'luthadel',              label: 'a una hora de',                type: 'geo' },
+
+  // ── Cavernas Arguois ─────────────────────────────────
+  { source: 'cat-mundo', target: 'arguois-cavernas',    label: '',                             type: 'arc' },
+  { source: 'arguois-cavernas', target: 'rebelion-skaa', label: 'base de',                    type: 'rel' },
+  { source: 'arguois-cavernas', target: 'pozos-hathsin', label: 'más cerca de Luthadel que',  type: 'geo' },
+  { source: 'arguois-cavernas', target: 'gran-trabajo',  label: 'punto de lanzamiento de',    type: 'goal' },
+  // ── Nuevas tramas ─────────────────────────────────────
+  { source: 'cat-tramas', target: 'guerra-casas',       label: '',                             type: 'arc' },
+  { source: 'cat-tramas', target: 'infiltracion-vin',   label: '',                             type: 'arc' },
+  { source: 'guerra-casas', target: 'grandes-casas',    label: 'enfrenta a',                  type: 'conflict' },
+  { source: 'guerra-casas', target: 'gran-trabajo',     label: 'parte del plan',               type: 'trama' },
+  { source: 'guerra-casas', target: 'guaricion-luthadel', label: 'busca exponer',              type: 'goal' },
+  { source: 'infiltracion-vin', target: 'guerra-casas', label: 'alimenta inteligencia a',     type: 'goal' },
+  { source: 'infiltracion-vin', target: 'grandes-casas', label: 'espiará a',                  type: 'goal' },
+  // ── Nuevos eventos ────────────────────────────────────
+  { source: 'cat-eventos', target: 'reunion-planificacion', label: '',                         type: 'arc' },
+  { source: 'cat-eventos', target: 'marsh-llega',           label: '',                         type: 'arc' },
+  { source: 'reunion-planificacion', target: 'gran-trabajo',      label: 'desarrolló el plan de', type: 'event' },
+  { source: 'reunion-planificacion', target: 'tienda-clubs',      label: 'ocurrió en',            type: 'geo' },
+  { source: 'reunion-planificacion', target: 'arguois-cavernas',  label: 'estableció uso de',     type: 'event' },
+  { source: 'marsh-llega', target: 'tienda-clubs',                label: 'ocurrió en',            type: 'geo' },
+  { source: 'marsh-llega', target: 'reunion-planificacion',       label: 'al final de',           type: 'event' },
+
 ];
 
